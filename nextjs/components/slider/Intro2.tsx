@@ -32,9 +32,9 @@ const Intro2: React.FC = () => {
                                 <div className="grid-category grid-category-style-2">
                                     <div className="grid-image-left-category">
                                         <Link href="#"><a>
-                                            <div className="category-image"><span className="for-design"></span></div>
+                                            <div className="category-image"><span className="for-quality"></span></div>
                                             <div className="category-info">
-                                                <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                                                <h3 className="text-heading-6">Unparalleled Quality</h3>
                                             </div>
                                         </a></Link>
                                     </div>
@@ -47,9 +47,9 @@ const Intro2: React.FC = () => {
                                 <div className="grid-category grid-category-style-2">
                                     <div className="grid-image-left-category">
                                         <Link href="#"><a>
-                                            <div className="category-image"><span className="for-software"></span></div>
+                                            <div className="category-image"><span className="for-trendsetting"></span></div>
                                             <div className="category-info">
-                                                <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                                                <h3 className="text-heading-6">Trendsetting Style</h3>
                                             </div>
                                         </a></Link>
                                     </div>
@@ -62,10 +62,10 @@ const Intro2: React.FC = () => {
                                 <div className="grid-category grid-category-style-2">
                                     <div className="grid-image-left-category">
                                         <Link href="#"><a>
-                                            <div className="category-image"><span className="for-office"></span></div>
+                                            <div className="category-image"><span className="for-community"></span></div>
                                             <div className="category-info">
-                                                <h3 className="text-heading-6 mt-15">Computer for Designer, Art</h3>
-                                                <p className="text-body-lead-large color-gray-500 mt-10">Real-time display of data</p><span className="icon-arrow-right-thin"></span>
+                                                <h3 className="text-heading-6 mt-15">Community Engagement</h3>
+                                                <p className="text-body-lead-large color-gray-500 mt-10">Fashion</p><span className="icon-arrow-right-thin"></span>
                                             </div>
                                         </a></Link>
                                     </div>

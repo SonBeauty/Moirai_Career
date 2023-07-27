@@ -16,63 +16,64 @@ function Index6(): JSX.Element {
         <>
             <Layout>
                 <div className="section-box">
-                    <div className="banner-hero banner-homepage6">
+                    <div className="banner-hero banner-homepage6 fit">
                         <div className="container">
-                            <div className="row">
-                                <div className="col-lg-7 mt-50 pb-120"><span className="tag-1 bg-green-900">Digital Marketing Agency</span>
-                                    <h1 className="text-display-2 mt-20">The Fastest way to achieve success</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-30 pr-40">It was popularised in the 1960s with the release<br className="d-lg-block d-none" />sheets. We bring the right people together</p>
+                            <div className="row relative">
+                                <div className="col-lg-7 mt-50 pb-400"><span className="tag-1 bg-green-900">Fashion as unique as you are</span>
+                                    <h1 className="text-display-2 mt-20">Unveiling the latest fashion trend in global</h1>
+                                    <p className="text-body-lead-large color-gray-500 mt-30 pr-40">The latest trend is waiting for your</p>
                                     <div className="mt-40">
-                                        <Link href="#"><a className="btn btn-black shape-square icon-arrow-right-white">Get Start</a></Link>
+                                        <Link href="#"><a className="btn btn-black shape-square icon-arrow-right-white">Get Started</a></Link>
                                         <Link href="#"><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works</a></Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-5 d-none d-lg-block">
+                                <div className="col-lg-6 absolute right-0 d-none d-lg-block">
                                     <div className="banner-imgs">
                                         <div className="block-1 shape-1"><Image width={141} height={57} src="/assets/imgs/page/homepage6/line-chart.svg" alt="Agon" /></div>
                                         <div className="block-2 shape-3"><Image width={180} height={203} src="/assets/imgs/page/homepage6/card.png" alt="Agon" /></div>
                                         <div className="img-banner img-responsive shape-2">
-                                            <Image width={526} height={556} alt="Agon" src="/assets/imgs/page/homepage6/banner.png" />
+                                            <Image width={640} height={939} alt="Agon" src="/assets/imgs/page/homepage6/banner.png" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="section-box box-slider-3 d-none d-lg-flex">
-                    <div className="container">
-                        <div className="block-slider-bottom-banner">
-                            <Intro2/>
+                        <div className="section-box box-slider-3 d-none d-lg-flex absolute bottom-0">
+                            <div className="container">
+                                <div className="block-slider-bottom-banner">
+                                    <Intro2/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
                 <div className="section-box mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">
-                                        <h3 className="text-display-3"><span className="count">38</span>k</h3><span className="text-body-quote">Our Office</span>
-                                        <p className="text-body-text">We always provide people a complete solution upon focused of any business</p>
+                                        <h3 className="text-display-3"><span className="count">17</span>+</h3><span className="text-body-quote">Our Office</span>
+                                        <p className="text-body-text">Step into our stylish office, where fashion meets creativity</p>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">
                                         <h3 className="text-display-3"><span className="count">12</span>k+</h3><span className="text-body-quote">Completed Cases</span>
-                                        <p className="text-body-text">We always provide people a complete solution upon focused of any business</p>
+                                        <p className="text-body-text">From runway to reality, our team has a proven track record</p>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">
-                                        <h3 className="text-display-3"><span className="count">17</span>k+</h3><span className="text-body-quote">Happy Clients</span>
-                                        <p className="text-body-text">We always provide people a complete solution upon focused of any business</p>
+                                        <h3 className="text-display-3"><span className="count">28</span>+</h3><span className="text-body-quote">Happy Clients</span>
+                                        <p className="text-body-text">Satisfied smiles and glowing testimonials are the hallmark of our fashion services</p>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70">
-                                        <h3 className="text-display-3"><span className="count">18</span>k+</h3><span className="text-body-quote">Skilled People</span>
-                                        <p className="text-body-text">We always provide people a complete solution upon focused of any business</p>
+                                        <h3 className="text-display-3"><span className="count">86</span></h3><span className="text-body-quote">Skilled People</span>
+                                        <p className="text-body-text">Behind every successful fashion endeavor is a team of skilled professionals</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 pdl-md">
-                                <h3 className="text-heading-1">Tell us about your business, we are ready to solve.</h3>
-                                <div className="mt-40 box-mw-610">
+                                <h3 className="text-heading-1">Subscribe our newsletter</h3>
+                                <div className="mt-100 box-mw-610">
                                     <div className="form-newsletter-2">
                                         <form><input className="input-newsletter" value="" placeholder="Enter your email ..." /><button className="btn btn-newsletter icon-arrow-right-white" type="submit">Get A Quote</button></form>
                                     </div>
@@ -99,25 +100,25 @@ function Index6(): JSX.Element {
                             <div className="row">
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
-                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-acquis.svg" alt="image"/></span>
-                                            <h4 className="text-heading-4">1. Acquisition</h4>
-                                            <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-company.svg" alt="image"/></span>
+                                            <h4 className="text-heading-5">1. About the Company</h4>
+                                            <p className="text-body-text color-gray-600 mt-15">Our company is a leading fashion enterprise dedicated to providing exceptional clothing and accessories.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
-                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-active.svg" alt="image"/></span>
-                                            <h4 className="text-heading-4">2. Activation</h4>
-                                            <p className="text-body-text color-gray-600 mt-15">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-history.svg" alt="image"/></span>
+                                            <h4 className="text-heading-5">2. History of Information</h4>
+                                            <p className="text-body-text color-gray-600 mt-15">Our company has a rich and inspiring history. It all started insert specific information about the company's origin.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
-                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-retent.svg" alt="image"/></span>
-                                            <h4 className="text-heading-4">3. Retention</h4>
-                                            <p className="text-body-text color-gray-600 mt-15">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a</p>
+                                        <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-mission.svg" alt="image"/></span>
+                                            <h4 className="text-heading-5">3. Company Mission</h4>
+                                            <p className="text-body-text color-gray-600 mt-15">At our company, our mission is to empower individuals to express their unique personalities through fashion. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,21 +130,21 @@ function Index6(): JSX.Element {
                     <div className="container mt-120">
                         <div className="row">
                             <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><Image width={526} height={429} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage6/img-1.png" alt="Agon" /></div>
-                            <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span>
-                                <h3 className="text-heading-1 mt-20">Exceptional Solution for Digital Business Model</h3>
-                                <p className="text-body-lead-large color-gray-600 mt-30">In a professional context it often happens that private or corporate clients order a publication news while still not being ready.</p>
+                            <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-6 color-green-900">For You</span>
+                                <h3 className="text-heading-1 mt-20">Best Seller</h3>
+                                <p className="text-body-lead-large color-gray-600 mt-80">Welcome to our Best Sellers collection, where you can discover our most sought-after fashion pieces that are loved by our customers.</p>
                                 <div className="row mt-20">
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Boost your sale</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Stay on-trend</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Smart Installation Tools</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Customer Favorites</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Introducing New Features</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Uncompromising Quality</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Dynamic Boosting</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Versatile Style</h4>
                                     </div>
                                 </div>
                             </div>
@@ -153,40 +154,42 @@ function Index6(): JSX.Element {
                 <div className="section-box overflow-visible mt-70">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-1.svg" /></a></Link>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-2.svg" /></a></Link>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-3.svg" /></a></Link>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-4.svg" /></a></Link>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-5.svg" /></a></Link>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={47} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-6.svg" /></a></Link>
+                            <div className="row justify-content-md-center">
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="section-box box-gray-100 mt-120 mb-20">
                     <div className="container">
-                        <div className="icon-wave">
+                        <div className="contact icon-wave">
                             <div className="row">
                                 <div className="col-lg-12 mb-60"><span className="text-body-capitalized text-uppercase">Contact us</span>
-                                    <h2 className="text-heading-3 color-gray-900 mt-10">Have an prject in mind?</h2>
-                                    <p className="text-body-text color-gray-600 mt-20">The right move at the right time saves your investment.<br className="d-lg-block d-none" />live the dream of expanding your business.</p>
+                                    <h2 className="text-heading-3 color-gray-900 mt-10">What can we support for you?</h2>
+                                    <p className="text-body-text color-gray-600 mt-20">fell free to ask about clothes</p>
                                 </div>
                                 <div className="col-lg-4 mb-40">
-                                    <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Agon Studio</h4>
+                                    <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Moirai</h4>
                                     <p className="text-body-text color-gray-600">4517 Washington Ave.<br />Manchester, Kentucky 39495</p>
                                     <p className="text-body-text color-gray-600">(239) 555-0108</p>
-                                    <p className="text-body-text color-gray-600">contact@agon.com</p>
+                                    <p className="text-body-text color-gray-600">uixopen@gmail.com</p>
                                 </div>
                                 <div className="col-lg-8">
                                     <div className="row">
@@ -227,50 +230,50 @@ function Index6(): JSX.Element {
                     <div className="container mt-90">
                         <div className="row">
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                    <Link href="#"><a className="text-heading-4">We can blend colors multiple ways, the most common</a></Link>
-                                    <div className="grid-4-img">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">Lastest trend</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Unveiling the Latest Fashion Trends: Elevate Your Style Game</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-9">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-1.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
-                                    <Link href="#"><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate</a></Link>
-                                    <div className="grid-4-img">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice & Look Stylish</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Mastering the Art of Looking Cool: Your Style Guide</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-6">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-2.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
-                                    <Link href="#"><a className="text-heading-4">Design Studios That Everyone Should Know About?</a></Link>
-                                    <div className="grid-4-img color-bg-4">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice Every Day</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Dressing Nice Every Day: A Guide to Effortless Style</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-4">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-3.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                    <Link href="#"><a className="text-heading-4">We can blend colors multiple ways, the most common</a></Link>
-                                    <div className="grid-4-img">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-4.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">Lastest trend</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Unveiling the Hottest Fashion Trends of the Season</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-2">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-4.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
-                                    <Link href="#"><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate</a></Link>
-                                    <div className="grid-4-img">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-5.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice & Look Stylish</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Dressing Nice: A Guide to Effortless Style</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-8">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-5.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
-                                    <Link href="#"><a className="text-heading-4">Design Studios That Everyone Should Know About?</a></Link>
-                                    <div className="grid-4-img color-bg-4">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-6.png" alt="Agon" /></a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice Every Day</span>
+                                    <Link href="#"><a className="text-heading-5 color-gray-900">Unleashing Your Style: A Journey into the World of Fashion</a></Link>
+                                    <div className="grid-4-img mt-2 color-bg-1">
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-6.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
