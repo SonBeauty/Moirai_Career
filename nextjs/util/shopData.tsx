@@ -11,121 +11,121 @@ interface Product {
 const data: Product[] = [
     {
         id: 1,
-        img: "sp5.png",
-        brand: "Sony",
-        title: "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
-        rating: 94,
-        oldPrice: 22.51,
-        newPrice: 29.5
+        img: "sp1.png",
+        brand: "Routine",
+        title: "Form Slim Crop",
+        rating: 84,
+        oldPrice: 2.80,
+        newPrice: 22.511
     },
     {
         id: 2,
-        img: "sp6.png",
-        brand: "Apple",
-        title: "T500BT Original Wireless Bluetooth Headphone Deep Bass",
-        rating: 126,
-        oldPrice: 95.26,
-        newPrice: 96.5
+        img: "sp2.png",
+        brand: "Routine",
+        title: "Corduroy Form Straight",
+        rating: 68,
+        oldPrice: 2.806,
+        newPrice: 22.51
     },
 
     {
         id: 3,
-        img: "sp7.png",
-        brand: "Toshiba",
-        title: "Black Walnut Wood &amp; Aluminum Headphone Stand",
-        rating: 87,
-        oldPrice: 25.6,
-        newPrice: 32.2
+        img: "sp3.png",
+        brand: "Routine",
+        title: "Form Fitted T-shirt",
+        rating: 76,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 4,
-        img: "sp8.png",
-        brand: "BassX",
-        title: "Beats Studio3 Wireless Bluetooth Headphones",
-        rating: 12,
-        oldPrice: 18.5,
-        newPrice: 22.6
+        img: "sp4.png",
+        brand: "Routine",
+        title: "Slim 2 wire coat",
+        rating: 125,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 5,
-        img: "sp9.png",
-        brand: "Konika",
-        title: "Marshall MAJOR III Wireless Folding Bluetooth",
-        rating: 43,
-        oldPrice: 28.2,
-        newPrice: 33.7
+        img: "sp5.png",
+        brand: "Routine",
+        title: "Regular T-shirt",
+        rating: 84,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 6,
-        img: "sp10.png",
-        brand: "Samsung",
-        title: "BT918 ANC 35dB Hybrid Active Noise Cancelling",
-        rating: 56,
-        oldPrice: 125,
-        newPrice: 129.8
+        img: "sp6.png",
+        brand: "Routine",
+        title: "Tote Linen",
+        rating: 68,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 7,
-        img: "sp11.png",
-        brand: "Google",
-        title: "Cancelling Headset Music Sport Deep Bass",
-        rating: 87,
-        oldPrice: 23.5,
-        newPrice: 29.8
+        img: "sp7.png",
+        brand: "Routine",
+        title: "Bucket Unisex",
+        rating: 76,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 8,
         img: "sp8.png",
-        brand: "Huawei",
-        title: "AirPods 2 Pro 3 Wireless Headphone Bluetooth",
-        rating: 57,
-        oldPrice: 15.51,
-        newPrice: 29.8
+        brand: "Routine",
+        title: "Corduroy Pant",
+        rating: 125,
+        oldPrice: 2.801,
+        newPrice: 22.51
     },
 
     {
         id: 9,
-        img: "sp4.png",
-        brand: "Nikon",
+        img: "sp5.png",
+        brand: "Routine",
         title: "Outdoor Waterproof Loudspeaker Stereo Surround Support",
-        rating: 46,
-        oldPrice: 21.55,
-        newPrice: 29.8
+        rating: 84,
+        oldPrice: 2.805,
+        newPrice: 22.51
     },
 
     {
         id: 10,
-        img: "sp5.png",
-        brand: "Alaex",
+        img: "sp6.png",
+        brand: "Routine",
         title: "uisine Smoking Gun Meat Burn Smokehouse",
-        rating: 24,
-        oldPrice: 56.4,
-        newPrice: 56.8
+        rating: 68,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 11,
-        img: "sp6.png",
-        brand: "XiaoMi",
+        img: "sp7.png",
+        brand: "Routine",
         title: "Walnut Gaming Headset Holder with Solid Metal",
-        rating: 17,
-        oldPrice: 34.3,
-        newPrice: 36.5
+        rating: 76,
+        oldPrice: 2.80,
+        newPrice: 22.51
     },
 
     {
         id: 12,
-        img: "sp7.png",
-        brand: "Lenovo",
+        img: "sp8.png",
+        brand: "Routine",
         title: "Headphones Surround 3D Deep Bass Sport Gaming",
-        rating: 87,
-        oldPrice: 25.6,
-        newPrice: 29.8
+        rating: 125,
+        oldPrice: 2.80,
+        newPrice: 22.51
     }
 ];
 
