@@ -8,7 +8,7 @@ interface HeaderProps{
     headerStyle: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
+const Header2: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     const [scroll, setScroll] = useState(false);
 
     useEffect(() => {
@@ -21,7 +21,19 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     });
     return (
         <>
-            <header className={scroll ? `${headerStyle} header sticky-bar stick ` : `${headerStyle} header sticky-bar`}>
+            <header className={scroll ? `${headerStyle} header pt-0 sticky-bar stick ` : `${headerStyle} header pt-0 sticky-bar`}>
+                <div className="w-full bg-gray-900">
+                    <div className="container">
+                        <div className="header-contact-info">
+                            <div className="color-white"><span>66 avenue des Champs, 75008, Paris, France</span></div>
+                            <div className="color-orange-900">
+                                <span>(+01) - 456 789</span>
+                                <span className="px-2 color-white">|</span>
+                                <span>uixopen@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
@@ -161,7 +173,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
                                         </li>
                                     </ul>
                                 </nav>
-                                <div className="burger-icon burger-icon-white" onClick={handleOpen}>
+                                <div className="burger-icon t-100 burger-icon-white" onClick={handleOpen}>
                                     <span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" />
                                 </div>
                             </div>
@@ -178,4 +190,4 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     );
 };
 
-export default Header;
+export default Header2;

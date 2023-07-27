@@ -13,37 +13,35 @@ function Index2(): JSX.Element {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-7 mt-50">
-                                        <span className="tag-1 bg-green-900">Digital Marketing Agency</span>
+                                        <span className="tag-1 bg-color-3 color-white">Moirai</span>
                                         <h1 className="text-display-3 mt-30">
-                                            Advanced analytics to grow your business
+                                            Unveiling the <span className="color-gray-blue">latest fashion</span> trend in global
                                         </h1>
                                         <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                            Integrated workflow designed for product
-                                            teams. We create world-class development and
-                                            branding
+                                            The lastest trend is waiting for you
                                         </p>
                                         <div className="mt-40">
                                             <Link href="/page-about-1"><a className="btn btn-black shape-square icon-arrow-right-white">Get Start
                                             </a></Link>
-                                            <Link href="/page-about-2"><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works
+                                            <Link href="/page-about-2"><a className="btn btn-link icon-triangle-2 color-gray-900 ml-40">How it works
                                             </a></Link>
                                         </div>
                                         <div className="mt-50">
                                             <div className="row">
                                                 <div className="col-lg-3 col-sm-4 col-4">
                                                     <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">38</span>k
+                                                        <span className="count">5000</span>+
                                                     </h3>
                                                     <p className="text-body-text-md color-gray-500">
-                                                        Happy Clients
+                                                        Product
                                                     </p>
                                                 </div>
                                                 <div className="col-lg-3 col-sm-4 col-4">
                                                     <h3 className="text-heading-4 color-gray-900 mb-15">
-                                                        +<span className="count">45</span>k
+                                                        <span className="count">756</span>+
                                                     </h3>
                                                     <p className="text-body-text-md color-gray-500">
-                                                        Project Done
+                                                        Happy Client
                                                     </p>
                                                 </div>
                                                 <div className="col-lg-3 col-sm-4 col-4">
@@ -65,7 +63,9 @@ function Index2(): JSX.Element {
                                             <div className="block-2 shape-3">
                                                 <Image width={155} height={170} src="/assets/imgs/page/homepage2/payment.png" alt="Agon" />
                                             </div>
-                                            <Image width={516} height={645} className="img-responsive shape-1" alt="Agon" src="/assets/imgs/page/homepage2/banner.png" />
+                                            <div className="img-responsive shape-1">
+                                                <Image width={516} height={645}  alt="Agon" src="/assets/imgs/page/homepage2/banner.png" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -75,48 +75,26 @@ function Index2(): JSX.Element {
                     <div className="section-box overflow-visible mt-80">
                         <div className="container">
                             <h2 className="text-heading-3 text-center color-gray-900 mb-60">
-                                Trusted by the world’s leading companies
+                                Trusted by the world’s fashion companies
                             </h2>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <ul className="list-partners">
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-1.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-2.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-3.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-4.svg" />
-                                            </a></Link>
-                                        </li>  
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-5.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-6.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-7.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-8.svg" />
-                                            </a></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-9.svg" />
-                                            </a></Link>
-                                        </li>
-                                    </ul>
+                            <div className="row justify-content-md-center">
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                </div>
+                                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                                 </div>
                             </div>
                         </div>
@@ -127,55 +105,45 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-6 col-sm-12 block-img-we-do">
                                     <div className="inner-image">
                                         <Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-2.png" alt="Agon" />
-                                        <div className="block-chart">
+                                        <div className="block-chart rounded-4 overflow-hidden">
                                             <Image width={270} height={204} src="/assets/imgs/page/homepage2/chart.png" alt="Agon" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-sm-12 block-we-do-2">
-                                    <span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span>
+                                    <span className="tag-1 bg-6 color-green-900">Overview</span>
                                     <h3 className="text-heading-1 mt-30">
-                                        Fresh Ideas. Thoughtful Design.
+                                        About Us
                                     </h3>
                                     <p className="text-body-lead-large color-gray-600 mt-30">
-                                        Feugiat primis ligula risus auctor egestas and
-                                        augue viverra mauri tortor in iaculis magna a
-                                        feugiat mauris ipsum and placerat viverra tortor
-                                        gravida purus.
+                                        We facilitate the creation of strategy and design
                                     </p>
                                     <div className="list-icons mt-50">
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-work.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-company.svg" alt="Agon" /></span>
                                             <h4 className="text-heading-4">
-                                                Work smarter with powerful features
+                                                About the Company
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                Aliquam a augue suscipit, luctus neque
-                                                purus ipsum neque at dolor primis libero
-                                                tempus, blandit
+                                                Our company is a leading fashion enterprise dedicated to providing exceptional clothing and accessories.
                                             </p>
                                         </div>
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-design.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-history.svg" alt="Agon" /></span>
                                             <h4 className="text-heading-4">
-                                                Designed for teams of all sorts and
-                                                sizes
+                                                History of Information
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                Aliquam a augue suscipit, luctus neque
-                                                purus ipsum neque at dolor primis libero
-                                                tempus, blandit
+                                                Our company has a rich and inspiring history. It all started [insert specific information about the company's origin, such as the year and circumstances of establishment].
                                             </p>
                                         </div>
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-advance.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-mission.svg" alt="Agon" /></span>
                                             <h4 className="text-heading-4">
-                                                Advanced analytics to grow your business
+                                                Company Mission
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                Aliquam a augue suscipit, luctus neque
-                                                purus ipsum neque at dolor primis libero
-                                                tempus, blandit
+                                                At our company, our mission is to empower individuals to express their unique personalities through fashion. We believe that clothing goes beyond mere functionality—it is a powerful form of self-expression.
                                             </p>
                                         </div>
                                     </div>
@@ -189,12 +157,11 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
                                     <h2 className="text-heading-1 color-gray-900 mb-10">
-                                        Discover powerful features to<br className="d-lg-block d-none" />boost your productivity
+                                        Application Flatform
                                     </h2>
                                     <p className="text-body-lead-large color-gray-600 mt-20">
-                                        Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit
-                                        laborum — semper quis lectus nulla.
+                                        An application platform is a software framework or infrastructure that provides a foundation for developing and running applications. 
+                                        It typically includes tools, libraries, and services that simplify the development process, enable application deployment, and facilitate scalability and performance optimization. 
                                     </p>
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
@@ -213,7 +180,7 @@ function Index2(): JSX.Element {
                                             our ready demos.
                                         </p>
                                         <div className="box-image-inner bg-color-1">
-                                            <Image width={498} height={389} src="/assets/imgs/page/homepage2/temp-1.png" alt="Agon" />
+                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-1.png" alt="Agon" />
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +195,7 @@ function Index2(): JSX.Element {
                                             our ready demos.
                                         </p>
                                         <div className="box-image-inner bg-color-2">
-                                            <Image width={498} height={389} src="/assets/imgs/page/homepage2/temp-2.png" alt="Agon" />
+                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-2.png" alt="Agon" />
                                         </div>
                                     </div>
                                 </div>
@@ -241,12 +208,11 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
                                     <h2 className="text-heading-1 color-gray-900 mb-10">
-                                        Built exclusively for you
+                                        What Makes Us Outstanding
                                     </h2>
                                     <p className="text-body-lead-large color-gray-600 mt-20">
-                                        Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit
-                                        laborum — semper quis lectus nulla.
+                                        At our clothing shop, we strive to stand out from the crowd by offering a unique 
+                                        and exceptional shopping experience. Here are a few factors that set us apart.
                                     </p>
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
@@ -257,15 +223,12 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-quality.svg" alt="Agon" /></span>
                                             <h4 className="text-heading-4">
-                                                1. Acquisition
+                                                1. Unparalleled Quality
                                             </h4>
                                             <p className="text-body-text color-gray-600 mt-15">
-                                                Excepteur sint occaecat cupidatat non
-                                                proident, sunt in culpa qui officia
-                                                deserunt mollit laborum — semper
-                                                quis lectus nulla.
+                                                We meticulously curate our collections to ensure that every garment we offer meets the highest standards of quality.
                                             </p>
                                         </div>
                                     </div>
@@ -273,15 +236,12 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-trendsetting.svg" alt="Agon" /></span>
                                             <h4 className="text-heading-4">
-                                                2. Activation
+                                                2. Trendsetting Style
                                             </h4>
                                             <p className="text-body-text color-gray-600 mt-15">
-                                                Excepteur sint occaecat cupidatat non
-                                                proident, sunt in culpa qui officia
-                                                deserunt mollit laborum — semper
-                                                quis lectus nulla.
+                                                Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles.
                                             </p>
                                         </div>
                                     </div>
@@ -289,13 +249,12 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
-                                            <h4 className="text-heading-4">3. Retention</h4>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-community.svg" alt="Agon" /></span>
+                                            <h4 className="text-heading-4">
+                                                3. Community Engagement
+                                            </h4>
                                             <p className="text-body-text color-gray-600 mt-15">
-                                                Excepteur sint occaecat cupidatat non
-                                                proident, sunt in culpa qui officia
-                                                deserunt mollit laborum — semper
-                                                quis lectus nulla.
+                                                We actively engage with our community through various initiatives.
                                             </p>
                                         </div>
                                     </div>
@@ -307,63 +266,54 @@ function Index2(): JSX.Element {
                         <div className="container mt-80">
                             <div className="row">
                                 <div className="col-lg-6 col-sm-12 mb-30">
-                                    <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
+                                    <span className="tag-1 bg-9 color-green-900">For You</span>
                                     <h3 className="text-heading-1 mt-30">
-                                        From the big picture to every tiny detail, we
-                                        got you covered.
+                                        Best Seller
                                     </h3>
                                     <p className="text-body-lead-large color-gray-600 mt-30">
-                                        Necessary to deliver white glove, fully managed
-                                        campaigns that surpass industry benchmarks.Take
-                                        your career to next level. Apply to our team and
-                                        see what we can do together. You’re good
-                                        enough.
+                                        Welcome to our Best Sellers collection, where you can discover our most sought-after fashion pieces that are loved by our customers.
                                     </p>
                                     <div className="line-bd-green mt-50" />
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-6 col-12 mt-50">
                                             <h4 className="text-heading-6 icon-leaf">
-                                                Automated reports
+                                                Stay on-trend
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                The latest design trends meet
-                                                hand-crafted templates.
+                                                Explore our Best Sellers collection for the latest fashion trends that are making waves in the industry.
                                             </p>
                                         </div>
                                         <div className="col-lg-6 col-sm-6 col-12 mt-50">
                                             <h4 className="text-heading-6 icon-leaf">
-                                                Realtime analytics
+                                                Customer Favorites
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                The latest design trends meet
-                                                hand-crafted templates.
+                                                Discover our most-loved fashion pieces, as recommended by our valued customers.
                                             </p>
                                         </div>
                                         <div className="col-lg-6 col-sm-6 col-12 mt-50">
                                             <h4 className="text-heading-6 icon-leaf">
-                                                Funnel optimization
+                                                Uncompromising Quality
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                The latest design trends meet
-                                                hand-crafted templates.
+                                                Shop from our Best Sellers collection, where fashion meets exceptional craftsmanship and high-quality materials..
                                             </p>
                                         </div>
                                         <div className="col-lg-6 col-sm-6 col-12 mt-50">
                                             <h4 className="text-heading-6 icon-leaf">
-                                                User journey
+                                                Versatile Style
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                The latest design trends meet
-                                                hand-crafted templates.
+                                                Find versatile fashion pieces that effortlessly elevate your wardrobe for any occasion.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-sm-12 block-we-do">
                                     <div className="inner-image">
-                                        <Image width={608} height={702} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-built.png" alt="Agon" />
+                                        <Image width={608} height={702} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller.png" alt="Agon" />
                                         <div className="block-image-bottom">
-                                            <Image width={313} height={330} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-built-2.png" alt="Agon" />
+                                            <Image width={313} height={330} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller-2.png" alt="Agon" />
                                         </div>
                                     </div>
                                 </div>
@@ -377,11 +327,10 @@ function Index2(): JSX.Element {
                                     <div className="col-lg-2 col-sm-1 col-12" />
                                     <div className="col-lg-8 col-sm-10 col-12 text-center">
                                         <h2 className="text-heading-1 color-gray-900 mt-30">
-                                            Our Happy Customers
+                                            Customers Feedback
                                         </h2>
                                         <p className="text-body-lead-large color-gray-600 mt-20">
-                                            Know about our clients, we are a woldwide
-                                            corporate brand
+                                            What are our client talk about us?
                                         </p>
                                     </div>
                                     <div className="col-lg-2 col-sm-1 col-12" />
@@ -391,48 +340,20 @@ function Index2(): JSX.Element {
                                         <div className="col-lg-6 col-md-12 col-sm-12">
                                             <div className="card-grid-style-2 hover-up mb-20">
                                                 <h5 className="text-heading-5 color-gray-900">
-                                                    Satisfied client testimonial
+                                                    So good experience
                                                 </h5>
                                                 <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    Even factoring differences in body
-                                                    weight between children and adults
-                                                    into account, it would still not
-                                                    reach an intoxicating level in
-                                                    children.
+                                                    Wow, those jeans look amazing on you! The fit is perfect and they really accentuate your figure
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" />
-                                                    </div>
-                                                    <h4 className="text-body-lead color-gray-900 mb-5">
-                                                        Jane Cooper
-                                                    </h4>
-                                                    <p className="text-body-text-md">
-                                                        Biffco Enterprises Ltd.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12">
-                                            <div className="card-grid-style-2 hover-up mb-20">
-                                                <h5 className="text-heading-5 color-gray-900">
-                                                    98% of residents recommend us
-                                                </h5>
-                                                <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    So yes, the alcohol (ethanol) in
-                                                    hand sanitizers can be absorbed
-                                                    through the skin, but no, it would
-                                                    not cause intoxication.
-                                                </p>
-                                                <div className="box-img-user">
-                                                    <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Agon" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
                                                         Wade Warren
                                                     </h4>
                                                     <p className="text-body-text-md">
-                                                        Krusty Krab
+                                                        Student
                                                     </p>
                                                 </div>
                                             </div>
@@ -440,25 +361,20 @@ function Index2(): JSX.Element {
                                         <div className="col-lg-6 col-md-12 col-sm-12">
                                             <div className="card-grid-style-2 hover-up mb-20">
                                                 <h5 className="text-heading-5 color-gray-900">
-                                                    Our success stories
+                                                    Highly Recommend
                                                 </h5>
                                                 <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    “It has been an absolute
-                                                    pleasure dealing with Scan during
-                                                    the lockdown. Our church began to
-                                                    livestream our services, and Scan
-                                                    had a great selection of
-                                                    hardware....”
+                                                    You have a great sense of style. The way you've put together that outfit is so fashionable and trendy.
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Agon" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
-                                                        Leslie Alexander
+                                                        Brooklyn Simmons
                                                     </h4>
                                                     <p className="text-body-text-md">
-                                                        Biffco Enterprises Ltd.
+                                                        Designer
                                                     </p>
                                                 </div>
                                             </div>
@@ -466,24 +382,41 @@ function Index2(): JSX.Element {
                                         <div className="col-lg-6 col-md-12 col-sm-12">
                                             <div className="card-grid-style-2 hover-up mb-20">
                                                 <h5 className="text-heading-5 color-gray-900">
-                                                    This is simply unbelievable
+                                                    Wonderful
                                                 </h5>
                                                 <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    “I was also lucky enough to
-                                                    read @Coding_Career early and I was
-                                                    thoroughly blown away! It’s
-                                                    the book I wish I had when I started
-                                                    my dev career.”
+                                                    I love the color of that shirt on you. It brings out your eyes and complements your skin tone beautifully
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Agon" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
-                                                        Jenny Wilson
+                                                        John Wilson
                                                     </h4>
                                                     <p className="text-body-text-md">
-                                                        Soylent Corp
+                                                        Content Creator
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-12 col-sm-12">
+                                            <div className="card-grid-style-2 hover-up mb-20">
+                                                <h5 className="text-heading-5 color-gray-900">
+                                                    I can’t believe in
+                                                </h5>
+                                                <p className="text-body-text color-gray-600 mt-20 text-comment">
+                                                    You always have such impeccable taste in clothes. I'm constantly impressed by how effortlessly stylish you look
+                                                </p>
+                                                <div className="box-img-user">
+                                                    <div className="img-user">
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Agon" />
+                                                    </div>
+                                                    <h4 className="text-body-lead color-gray-900 mb-5">
+                                                        Albert Flores
+                                                    </h4>
+                                                    <p className="text-body-text-md">
+                                                        Software Engineer
                                                     </p>
                                                 </div>
                                             </div>
@@ -510,7 +443,7 @@ function Index2(): JSX.Element {
                                             <div className="col-lg-5 col-md-7">
                                                 <span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
                                                 <h4 className="text-heading-2 mb-10 mt-10">
-                                                    Subscribe our newsletter
+                                                    Contact For Selling Overview
                                                 </h4>
                                                 <p className="text-body-text color-gray-500">
                                                     By clicking the button, you are
@@ -530,7 +463,8 @@ function Index2(): JSX.Element {
                                                 <div className="block-chart shape-1">
                                                     <Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" />
                                                 </div>
-                                                <Image width={332} height={403} className="img-responsive img-newsletter" src="/assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                                <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
+                                                
                                             </div>
                                         </div>
                                     </div>

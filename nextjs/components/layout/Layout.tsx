@@ -2,6 +2,7 @@ import { useState } from 'react';
 import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
+import Header2 from "./Header2";
 import Sidebar from "./Sidebar";
 
 interface LayoutProps{
