@@ -7,10 +7,10 @@ interface HeaderProps{
     headerStyle: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
+const Header3: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     const [scroll, setScroll] = useState(false);
 
-    useEffect(() => {
+    useEffect(() => { 
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
@@ -20,7 +20,19 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     });
     return (
         <>
-            <header className={scroll ? `${headerStyle} header sticky-bar stick ` : `${headerStyle} header sticky-bar`}>
+            <header className={scroll ? `${headerStyle} header header3 pt-0 sticky-bar stick ` : `${headerStyle} header header3 pt-0 sticky-bar`}>
+                <div className="w-full bg-red">
+                    <div className="container">
+                        <div className="header-contact-info">
+                            <div className="color-white"><span>66 avenue des Champs, 75008, Paris, France</span></div>
+                            <div className="color-green-100 color-white">
+                                <span>(+01) - 456 789</span>
+                                <span className="px-2 color-white">|</span>
+                                <span>uixopen@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
@@ -137,14 +149,14 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
                                         </li>
                                     </ul>
                                 </nav>
-                                <div className="burger-icon burger-icon-white" onClick={handleOpen}>
+                                <div className="burger-icon t-100 burger-icon-white" onClick={handleOpen}>
                                     <span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" />
                                 </div>
                             </div>
                         </div>
                         <div className="header-right">
                             <div className="block-signin">
-                                <Link href="/page-signup"><a className="btn btn-default hover-up icon-arrow-right">Get Started</a></Link>
+                                <Link href="/page-signup"><a className="btn btn-black hover-up icon-arrow-right-white">Get Started</a></Link>
                             </div>
                         </div>
                     </div>
@@ -154,4 +166,4 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
     );
 };
 
-export default Header;
+export default Header3;

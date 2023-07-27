@@ -2,17 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 
-const Footer: React.FC = () => {
+const Footer3: React.FC = () => {
     return (
         <div>
-            <footer className="footer mt-50">
+            <footer className="footer footer3 mt-50">
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
                                     <a>
-                                        <Image alt="Agon" src="/assets/imgs/template/logo.svg" width={187} height={50}/>
+                                        <Image alt="Moirai" src="/assets/imgs/template/logo.svg" width={187} height={50}/>
                                     </a>
                                 </Link>
                             </div>
@@ -155,7 +155,7 @@ const Footer: React.FC = () => {
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-6">
-                                <span className="color-gray-400 text-body-lead">© Moirai Official 2022</span>
+                                <span className="color-gray-400 text-body-lead">© Moirai Official 2023</span>
                                 <Link href="/page-terms">
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
@@ -169,16 +169,16 @@ const Footer: React.FC = () => {
                             <div className="col-md-6 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
                                     <Link href="https://facebook.com">
-                                        <a className="icon-socials icon-facebook"></a>
+                                        <a className="icon-socials icon-facebook-red"></a>
                                     </Link>
                                     <Link href="https://twitter.com">
-                                        <a className="icon-socials icon-twitter"></a>
+                                        <a className="icon-socials icon-twitter-red"></a>
                                     </Link>
                                     <Link href="https://www.instagram.com">
-                                        <a className="icon-socials icon-instagram"></a>
+                                        <a className="icon-socials icon-instagram-red"></a>
                                     </Link>
                                     <Link href="https://www.linkedin.com">
-                                        <a className="icon-socials icon-linkedin"></a>
+                                        <a className="icon-socials icon-linkedin-red"></a>
                                     </Link>
                                 </div>
                             </div>
@@ -190,4 +190,4 @@ const Footer: React.FC = () => {
     );
 };
 
-export default Footer;
+export default Footer3;

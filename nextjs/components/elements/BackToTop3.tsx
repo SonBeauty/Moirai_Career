@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function BackToTop(): JSX.Element {
+function BackToTop3(): JSX.Element {
     const [hasScrolled, setHasScrolled] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", onScroll);
@@ -21,7 +21,7 @@ function BackToTop(): JSX.Element {
         <>
             {hasScrolled && (
                 <a id="scrollUp" href="#top" style={{ position: 'fixed', zIndex: 2147483647 }}>
-                    <i className="fi-rr-arrow-small-up" />
+                    <i className="fi-rr-arrow-small-up bg-red" />
                 </a>
 
 
@@ -29,4 +29,4 @@ function BackToTop(): JSX.Element {
         </>
     );
 }
-export default BackToTop;
+export default BackToTop3;
