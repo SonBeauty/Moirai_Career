@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link"
+import Link from "next/link";
 
 SwiperCore.use([Autoplay, Navigation]);
 

@@ -11,12 +11,12 @@ return (
         <div className="banner-hero banner-homepage8">
             <div className="container mt-50">
             <div className="row">
-                <div className="col-lg-7"><span className="tag-1 bg-6 color-green-900">CHECK OUR BEST PROMOTIONS</span>
-                <h1 className="text-display-4 font-bold mt-30">Search Your <span className="color-green-900">Next Holiday</span> from Our Destinations</h1>
-                <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Get a website to be found on the first page of Google to avoid missing out on potential visitors and sales.</p>
+                <div className="col-lg-7"><span className="tag-1 bg-6 color-green-900">Fashion as unique as you are</span>
+                <h1 className="text-display-4 font-bold mt-30">Unveiling the <span className="color-deep-orange">latest <br/> fashion</span> trend in global</h1>
+                <p className="text-body-lead-large color-gray-500 mt-40 pr-40">The latest trend is waiting for you</p>
                 <div className="mt-40 box-mw-610">
                     <div className="form-newsletter-2">
-                    <form><input className="input-newsletter" value="" placeholder="Enter your email ..." /><button className="btn btn-newsletter icon-arrow-right-white" type="submit">Search</button></form>
+                    <form><input className="input-newsletter" value="" placeholder="Enter key word"/><button className="btn btn-newsletter icon-arrow-right-white" type="submit">Search</button></form>
                     </div>
                 </div>
                 </div>
@@ -35,94 +35,94 @@ return (
                 </div>
             </div>
             <div className="popular-search mt-100">
-                <h2 className="text-heading-4">Popular Search</h2>
+                <h2 className="text-heading-4">Popular Fashion Brands Search</h2>
                 <ul className="list-search-popular">
                 <li>
-                    <Link href="#"><a className="btn btn-border">New York</a></Link>
+                    <Link href="#"><a className="btn btn-border">Louis Vuitton</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">London</a></Link>
+                    <Link href="#"><a className="btn btn-border">Gucci</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Estonia</a></Link>
+                    <Link href="#"><a className="btn btn-border">Chanel</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Phuket</a></Link>
+                    <Link href="#"><a className="btn btn-border">Burberry</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Paris</a></Link>
+                    <Link href="#"><a className="btn btn-border">Dior</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Nethelands</a></Link>
+                    <Link href="#"><a className="btn btn-border">Versace</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Lotus Temple</a></Link>
+                    <Link href="#"><a className="btn btn-border">Hermes</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Eiffel Tower</a></Link>
+                    <Link href="#"><a className="btn btn-border">Givenchy</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">The Colosseum</a></Link>
+                    <Link href="#"><a className="btn btn-border">H&amp;M</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Rome</a></Link>
+                    <Link href="#"><a className="btn btn-border">Saint laurent</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Statue of Liberty</a></Link>
+                    <Link href="#"><a className="btn btn-border">Massimo Dutti</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Machu Picchu</a></Link>
+                    <Link href="#"><a className="btn btn-border">Stradivarius</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Bali, Indonesia</a></Link>
+                    <Link href="#"><a className="btn btn-border">Prada</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Orleans</a></Link>
+                    <Link href="#"><a className="btn btn-border">Fendi</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Kerry, Ireland</a></Link>
+                    <Link href="#"><a className="btn btn-border">Uniqlo</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Marrakesh</a></Link>
+                    <Link href="#"><a className="btn btn-border">Lacoste</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Morocco</a></Link>
+                    <Link href="#"><a className="btn btn-border">Giorgio Armani</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Central</a></Link>
+                    <Link href="#"><a className="btn btn-border">Ralph Lauren</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Tokyo</a></Link>
+                    <Link href="#"><a className="btn btn-border">Balenciaga</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Dubai</a></Link>
+                    <Link href="#"><a className="btn btn-border">Vanlentino</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Bora Bora</a></Link>
+                    <Link href="#"><a className="btn btn-border">Zara</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Dubrovnik</a></Link>
+                    <Link href="#"><a className="btn btn-border">Hugo Boss</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Edinburgh</a></Link>
+                    <Link href="#"><a className="btn btn-border">Dolce &amp; Gabbane</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Paro Valley</a></Link>
+                    <Link href="#"><a className="btn btn-border">Chloe</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Jaipur, India</a></Link>
+                    <Link href="#"><a className="btn btn-border">Lanvin</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Waikato</a></Link>
+                    <Link href="#"><a className="btn btn-border">Marni</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">Havana</a></Link>
+                    <Link href="#"><a className="btn btn-border">Marc Jacobs</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">NY, USA</a></Link>
+                    <Link href="#"><a className="btn btn-border">Cartier</a></Link>
                     </li>
                 <li>
-                    <Link href="#"><a className="btn btn-border">West</a></Link>
+                    <Link href="#"><a className="btn btn-border">Cerruti</a></Link>
                     </li>
                 </ul>
             </div>
@@ -130,9 +130,9 @@ return (
         </div>
         </div>
         <div className="section-box mt-100">
-        <div className="container"><span className="tag-1 color-orange-900">Hot for this Summer</span>
-            <h2 className="text-heading-1 color-gray-900 mt-30">Explore Top Destiations</h2>
-            <p className="text-body-lead-large color-gray-600 mt-20">We find the absolute best prices on hotels &amp; flights<br className="d-lg-block d-none" />then we pass these savings directly to you.</p>
+        <div className="container"><span className="tag-1 color-orange-900">This Summer</span>
+            <h2 className="text-heading-1 color-gray-900 mt-30">Fashion Week</h2>
+            <p className="text-body-lead-large color-gray-600 font-20 mt-20">The best-selling fashion shows are dazzling events where exquisite and unique collections are unveiled to the world. These shows are highly anticipated by fashion enthusiasts, industry professionals, and trendsetters alike.<br className="d-lg-block d-none" /></p>
         </div>
         <div className="container mt-70">
             <div className="row">
@@ -153,14 +153,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Enchanting Elegance</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -185,14 +185,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Urban Chic</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -217,14 +217,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Ethereal Dreams</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -249,14 +249,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Avant-Garde Revolution</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -281,14 +281,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Bohemian Rhapsody</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -313,14 +313,14 @@ return (
                     <Link href="#"><a className="text-semibold">(84 rates)</a></Link>
                     </div>
                     <Link href="#"><a>
-                    <h3 className="text-body-lead color-gray-900">All Natural Italian-Style Chicken Meatballs</h3>
+                    <h3 className="text-body-lead color-gray-900">The Timeless Classic</h3>
                     </a></Link>
                     <div className="d-flex mt-20">
                     <div className="box-prices"><span className="location-icon">Central Park West, USA</span></div>
                     <div className="box-prices"><span className="calendar-icon">3 days, 2 night</span></div>
                     </div>
                     <div className="d-flex mt-30">
-                    <div className="box-prices"><span className="price-regular mr-5">$22.51</span><span className="price-regular price-line">$2.8</span></div>
+                    <div className="box-prices"><span className="price-regular mr-5">$220</span><span className="price-regular price-line">$280</span></div>
                     <div className="button-add text-end">
                         <Link href="#"><a className="btn btn-explorer">Explore</a></Link>
                         </div>
@@ -337,53 +337,56 @@ return (
         <div className="section-box">
         <div className="container mt-100">
             <div className="row">
-            <div className="col-lg-6 col-sm-12 block-img-we-do img-bottom">
+            <div className="col-lg-6 col-sm-12 block-img-we-do img-center">
                 <div className="inner-image"><Image width={618} height={590} src="/assets/imgs/page/homepage8/img-2.png" alt="Agon" /></div>
             </div>
             <div className="col-lg-6 col-sm-12 block-we-do-2">
-                <h3 className="text-heading-1 mt-30">How does it works</h3>
-                <p className="text-body-lead-large color-gray-600 mt-20">We find the absolute best prices on hotels &amp; flights then we pass these savings directly to you.</p>
+                <h3 className="text-heading-1 mt-30">Best Seller</h3>
+                <p className="text-body-lead-large color-gray-600 mt-20">Welcome to our Best Sellers collection, where you can discover our most sought-after fashion pieces that are loved by our customers.</p>
                 <div className="list-icons-round mt-40">
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/user.svg" /></span>
-                    <h4 className="text-heading-5 color-green-900">Account</h4>
-                    <p className="text-body-text color-gray-600 mt-5">All the necessary information to create your account are below this.</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/icon-trend.svg" /></span>
+                    <h4 className="text-heading-5 color-green-900">Stay on Trend</h4>
+                    <p className="text-body-text color-gray-600 mt-5">Elevate your fashion game with our curated collection of the latest trends. From bold prints to vibrant colors, we have the pieces that will keep you looking stylish and up-to-date.</p>
                 </div>
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".3s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/destination.svg" /></span>
-                    <h4 className="text-heading-5 color-green-900">Select Destination</h4>
-                    <p className="text-body-text color-gray-600 mt-5">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".3s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/icon-like.svg" /></span>
+                    <h4 className="text-heading-5 color-green-900">Customer Favorites</h4>
+                    <p className="text-body-text color-gray-600 mt-5">Discover our most loved fashion pieces, handpicked by our customers. These popular items combine fashion-forward designs with comfort and versatility, ensuring you always look and feel your best.</p>
                 </div>
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".5s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/trip.svg" /></span>
-                    <h4 className="text-heading-5 color-green-900">Book a Trip</h4>
-                    <p className="text-body-text color-gray-600 mt-5">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".5s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/icon-lock.svg" /></span>
+                    <h4 className="text-heading-5 color-green-900">Uncompromising Quality</h4>
+                    <p className="text-body-text color-gray-600 mt-5"> Experience fashion at its finest with our uncompromising commitment to quality. Each garment is meticulously crafted using premium materials and impeccable attention to detail, ensuring durability and longevity.</p>
                 </div>
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".7s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/flight.svg" /></span>
-                    <h4 className="text-heading-5 color-green-900">Take your flight</h4>
-                    <p className="text-body-text color-gray-600 mt-5">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".7s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/icon-recycle.svg" /></span>
+                    <h4 className="text-heading-5 color-green-900">Versatile Style</h4>
+                    <p className="text-body-text color-gray-600 mt-5">Embrace the versatility of our fashion collection, designed to effortlessly adapt to any occasion. Whether you're dressing up for a formal event or keeping it casual for a weekend outing, our range of styles offers endless possibilities.</p>
                 </div>
                 </div>
             </div>
             </div>
         </div>
         </div>
-        <div className="section-box bg-7 mt-70">
+        <div className="section-box bg-7 fit mt-70">
         <div className="container mt-100 mb-50">
-            <div className="row">
+            <div className="row relative">
             <div className="col-lg-6 col-sm-12 block-we-do-2">
-                <h3 className="text-heading-1 mt-30">A Simply Perfect Place To Get Lost</h3>
-                <p className="text-body-lead-large color-gray-600 mt-30">Feugiat primis ligula risus auctor egestas and augue viverra mauri tortor in iaculis magna a feugiat mauris ipsum and placerat viverra tortor gravida purus.</p>
+                <h3 className="text-heading-1 mt-30">Application Flatform</h3>
+                <p className="text-body-lead-large color-gray-600 mt-30">
+                    An application platform is a software framework or infrastructure that provides a foundation for developing and running applications. 
+                    It typically includes tools, libraries, and services that simplify the development process, enable application deployment, and facilitate scalability and performance optimization.
+                </p>
                 <div className="list-icons mt-40">
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><Image width={64} height={64} alt="image" src="/assets/imgs/page/homepage2/icon-work.svg" /></span>
-                    <h4 className="text-heading-4">Best Price Guarantee</h4>
-                    <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><Image width={64} height={64} alt="image" src="/assets/imgs/page/homepage8/icon-cross-platform.svg" /></span>
+                    <h4 className="text-heading-4">Cross-Platform</h4>
+                    <p className="text-body-excerpt color-gray-600 mt-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                 </div>
-                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".3s"><span className="icon-left"><Image width={64} height={64} alt="image" src="/assets/imgs/page/homepage2/icon-design.svg" /></span>
-                    <h4 className="text-heading-4">Easy &amp; Quick Booking</h4>
-                    <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".3s"><span className="icon-left"><Image width={64} height={64} alt="image" src="/assets/imgs/page/homepage8/icon-extremely.svg" /></span>
+                    <h4 className="text-heading-4">Extremely Flexible</h4>
+                    <p className="text-body-excerpt color-gray-600 mt-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                 </div>
                 </div>
             </div>
-            <div className="col-lg-6 col-sm-12 block-img-we-do img-bottom">
-                <div className="inner-image"><Image width={618} height={624} src="/assets/imgs/page/homepage8/img.png" alt="Agon" /></div>
+            <div className="col-lg-8 col-sm-12 block-img-we-do img-bottom banner8-img">
+                <div className="inner-image"><Image width={860} height={800} src="/assets/imgs/page/homepage8/img.png" alt="Agon" /></div>
             </div>
             </div>
         </div>
@@ -392,8 +395,8 @@ return (
         <div className="container mt-110">
             <div className="row">
             <div className="col-lg-9 col-sm-8">
-                <h3 className="text-heading-1 mb-10">Our Happy Customers</h3>
-                <p className="text-body-lead-large color-gray-600">Know about our clients, we are a woldwide corporate brand</p>
+                <h3 className="text-heading-1 mb-10">Customers Feedback</h3>
+                <p className="text-body-lead-large color-gray-600">What are popular brand talk about us?</p>
             </div>
             </div>
         </div>
@@ -403,38 +406,25 @@ return (
         </div>
         <div className="section-box overflow-visible mt-10">
         <div className="container">
-            <div className="row">
-            <div className="col-lg-12">
-                <ul className="list-partners none-bd pb-0">
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-1.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-2.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-3.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-4.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-5.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-6.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-7.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-8.svg" /></a></Link>
-                    </li>
-                <li>
-                    <Link href="#"><a className="item-logo box-hover-shadow hover-up"><Image width={203} height={52} alt="Agon" src="/assets/imgs/slider/logo/sample-logo-9.svg" /></a></Link>
-                    </li>
-                </ul>
-            </div>
+            <div className="row justify-content-md-center">
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                </div>
             </div>
         </div>
         </div>
@@ -442,20 +432,20 @@ return (
             <div className="container mt-100">
                 <div className="row">
                 <div className="col-lg-10 mx-auto">
-                    <div className="bg-6 box-newsletter position-relative">
+                    <div className="bg-orange-100 box-newsletter position-relative">
                     <div className="row">
                         <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
                         <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
                         <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
                         <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
                         <div className="box-form-newsletter mt-30">
-                            <form className="form-newsletter"><input className="input-newsletter" value="" placeholder="Enter you mail .." /><button className="btn btn-send"></button></form>
+                            <form className="form-newsletter"><input className="input-newsletter" value="" placeholder="Enter your mail .."/><button className="btn btn-send"></button></form>
                         </div>
                         </div>
                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                         <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" /></div>
                         <div className="img-responsive img-newsletter">
-                            <Image width={332} height={403} src="/assets/imgs/template/img-newsletter.png" alt="Agon" />
+                            <Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" />
                         </div>
                         </div>
                     </div>
