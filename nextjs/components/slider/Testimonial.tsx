@@ -10,30 +10,30 @@ const TestimonialSlider: React.FC = () => {
     const data = [
         {
             avatar: "1.png",
-            name: "Taylor",
-            job: "Designer",
-            quote: "Wow, those jeans look amazing on you! The fit is perfect and they really accentuate your figure.",
+            name: "Wade Warren",
+            job: "Student",
+            quote: "The best purchase I've made in recent years. I didn't think I could pull off that color so well!",
             bg: "bd-bg-4"
         },
         {
             avatar: "2.png",
-            name: "Maddies",
-            job: "Cheft",
-            quote: "I love the color of that shirt on you. It brings out your eyes and complements your skin tone beautifully.",
+            name: "Brooklyn Simmons",
+            job: "Designer",
+            quote: "The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest.",
             bg: "bd-bg-6"
         },
         {
             avatar: "3.png",
-            name: "Adele",
-            job: "Stylist",
-            quote: "You have a great sense of style. The way you've put together that outfit is so fashionable and trendy.",
+            name: "John Wilson",
+            job: "Content Creator",
+            quote: "The service couldn't be better. I really couldn't have expected more. From item suggestions to final delivery.",
             bg: "bd-bg-10"
         },
         {
             avatar: "4.png",
-            name: "An",
-            job: "PR Specialist",
-            quote: "You always have such impeccable taste in clothes. I'm constantly impressed by how effortlessly stylish you look.",
+            name: "Albert Flores",
+            job: "Software Engineer",
+            quote: "The sense of style is elegant and classy. The way outfits are put together is fashionable and trendy.",
             bg: "bd-bg-9"
         }
     ];
