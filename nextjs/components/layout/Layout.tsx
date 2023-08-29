@@ -6,6 +6,12 @@ import Sidebar from "./Sidebar";
 
 interface LayoutProps{
     children?: React.ReactNode;
+    headTitle?: string;
+    pageTitle?: string;
+    pageTitleSub?: string;
+    parent?: string;
+    child?: string;
+    pageClass?: string;
     headerStyle?: string;
 }
 

@@ -8,7 +8,7 @@ import Layout from "../components/layout/Layout";
 import TeamSlider from "../components/slider/Team";
 import TestimonialSlider from "../components/slider/Testimonial";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -261,7 +261,10 @@ function About1(): JSX.Element {
                 </section>
                 <ModalVideo
                     channel="youtube"
-                    autoplay
+                    youtube={{
+                        autoplay: 1,
+                        mute: 1
+                    }}
                     isOpen={isOpen}
                     videoId="A450hyqGkmk"
                     onClose={() => setOpen(false)}

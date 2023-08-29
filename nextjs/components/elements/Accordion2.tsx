@@ -27,7 +27,7 @@ function Accordion2(): JSX.Element {
                         <button className={isActive.key == "1" ? "accordion-button text-heading-5 " : "accordion-button bg-red text-heading-5 accordion-color collapsed"}>Where is my order?</button>
                     </h2>
                     <div className={isActive.key == "1" ? "accordion-collapse collapse show" : "accordion-collapse collapse "}>
-                        <div className="accordion-body">Feel free to let me know if you have any specific preferences or requirements, and I'll be happy to assist you further!</div>
+                        <div className="accordion-body">Feel free to let me know if you have any specific preferences or requirements, and I&apos;ll be happy to assist you further!</div>
                     </div>
                 </div>
                 <div className="accordion-item">

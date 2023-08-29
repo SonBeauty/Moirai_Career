@@ -23,13 +23,13 @@ return (
                 <div className="col-lg-5 d-none d-lg-block">
                 <div className="banner-imgs d-flex">
                     <div className="rounded-img shape-1">
-                        <Image width={158} height={373} alt="Agon" src="/assets/imgs/page/homepage8/banner1.png" />  
+                        <Image width={158} height={373} alt="Moirai" src="/assets/imgs/page/homepage8/banner1.png" />  
                     </div>
                     <div className="rounded-img mt-20 shape-1-2">
-                        <Image width={158} height={373} alt="Agon" src="/assets/imgs/page/homepage8/banner2.png" />  
+                        <Image width={158} height={373} alt="Moirai" src="/assets/imgs/page/homepage8/banner2.png" />  
                     </div>
                     <div className="rounded-img shape-1">
-                        <Image width={158} height={373} alt="Agon" src="/assets/imgs/page/homepage8/banner3.png" />
+                        <Image width={158} height={373} alt="Moirai" src="/assets/imgs/page/homepage8/banner3.png" />
                     </div>
                 </div>
                 </div>
@@ -338,7 +338,7 @@ return (
         <div className="container mt-100">
             <div className="row">
             <div className="col-lg-6 col-sm-12 block-img-we-do img-center">
-                <div className="inner-image"><Image width={618} height={590} src="/assets/imgs/page/homepage8/img-2.png" alt="Agon" /></div>
+                <div className="inner-image"><Image width={618} height={590} src="/assets/imgs/page/homepage8/img-2.png" alt="Moirai" /></div>
             </div>
             <div className="col-lg-6 col-sm-12 block-we-do-2">
                 <h3 className="text-heading-1 mt-30">Best Seller</h3>
@@ -358,7 +358,7 @@ return (
                 </div>
                 <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".7s"><span className="icon-left"><Image width={25} height={24} alt="image" src="/assets/imgs/page/homepage8/icon-recycle.svg" /></span>
                     <h4 className="text-heading-5 color-green-900">Versatile Style</h4>
-                    <p className="text-body-text color-gray-600 mt-5">Embrace the versatility of our fashion collection, designed to effortlessly adapt to any occasion. Whether you're dressing up for a formal event or keeping it casual for a weekend outing, our range of styles offers endless possibilities.</p>
+                    <p className="text-body-text color-gray-600 mt-5">Embrace the versatility of our fashion collection, designed to effortlessly adapt to any occasion. Whether you&apos;re dressing up for a formal event or keeping it casual for a weekend outing, our range of styles offers endless possibilities.</p>
                 </div>
                 </div>
             </div>
@@ -386,7 +386,7 @@ return (
                 </div>
             </div>
             <div className="col-lg-8 col-sm-12 block-img-we-do img-bottom banner8-img">
-                <div className="inner-image"><Image width={860} height={800} src="/assets/imgs/page/homepage8/img.png" alt="Agon" /></div>
+                <div className="inner-image"><Image width={860} height={800} src="/assets/imgs/page/homepage8/img.png" alt="Moirai" /></div>
             </div>
             </div>
         </div>
@@ -408,22 +408,22 @@ return (
         <div className="container">
             <div className="row justify-content-md-center">
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
                 </div>
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
                 </div>
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
                 </div>
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
                 </div>
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
                 </div>
                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                 </div>
             </div>
         </div>
@@ -443,9 +443,9 @@ return (
                         </div>
                         </div>
                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                        <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" /></div>
+                        <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Moirai" /></div>
                         <div className="img-responsive img-newsletter">
-                            <Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" />
+                            <Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" />
                         </div>
                         </div>
                     </div>

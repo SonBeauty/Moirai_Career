@@ -3,8 +3,9 @@ import { useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { FreeMode, Navigation, SwiperOptions, Thumbs } from "swiper";
-
-interface ThumbProps extends SwiperOptions {
+import { Swiper as SwiperProps } from "swiper/types";
+import Image from "next/image";
+interface ThumbProps extends SwiperProps {
     destroyed : boolean
 }
 
@@ -37,22 +38,22 @@ const ThumbSlider = () => {
                         >
                             <SwiperSlide>
                                 <figure className="border-radius-10">
-                                    <img src="/assets/imgs/page/single-product/img-sp.jpg" alt="product image" />
+                                    <Image layout="fill" objectFit="cover"  src="/assets/imgs/page/single-product/img-sp.jpg" alt="product image" />
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <figure className="border-radius-10">
-                                    <img src="/assets/imgs/page/single-product/img-sp2.jpg" alt="product image" />
+                                    <Image layout="fill" objectFit="cover"  src="/assets/imgs/page/single-product/img-sp2.jpg" alt="product image" />
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <figure className="border-radius-10">
-                                    <img src="/assets/imgs/page/single-product/img-sp3.jpg" alt="product image" />
+                                    <Image layout="fill" objectFit="cover"  src="/assets/imgs/page/single-product/img-sp3.jpg" alt="product image" />
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <figure className="border-radius-10">
-                                    <img src="/assets/imgs/page/single-product/img-sp4.jpg" alt="product image" />
+                                    <Image layout="fill" objectFit="cover"  src="/assets/imgs/page/single-product/img-sp4.jpg" alt="product image" />
                                 </figure>
                             </SwiperSlide>
                         </Swiper>
@@ -67,10 +68,10 @@ const ThumbSlider = () => {
                     watchSlidesProgress={true}
                     modules={[FreeMode, Navigation, Thumbs]}
                     className="">
-                    <SwiperSlide><div><img src="/assets/imgs/page/single-product/img-sp.jpg" alt="product image" /></div></SwiperSlide>
-                    <SwiperSlide><div><img src="/assets/imgs/page/single-product/img-sp2.jpg" alt="product image" /></div></SwiperSlide>
-                    <SwiperSlide><div><img src="/assets/imgs/page/single-product/img-sp3.jpg" alt="product image" /></div></SwiperSlide>
-                    <SwiperSlide><div><img src="/assets/imgs/page/single-product/img-sp4.jpg" alt="product image" /></div></SwiperSlide>
+                    <SwiperSlide><div><Image layout="fill" objectFit="cover" src="/assets/imgs/page/single-product/img-sp.jpg" alt="product image" /></div></SwiperSlide>
+                    <SwiperSlide><div><Image layout="fill" objectFit="cover" src="/assets/imgs/page/single-product/img-sp2.jpg" alt="product image" /></div></SwiperSlide>
+                    <SwiperSlide><div><Image layout="fill" objectFit="cover" src="/assets/imgs/page/single-product/img-sp3.jpg" alt="product image" /></div></SwiperSlide>
+                    <SwiperSlide><div><Image layout="fill" objectFit="cover" src="/assets/imgs/page/single-product/img-sp4.jpg" alt="product image" /></div></SwiperSlide>
                 </Swiper>
                 </div>               
             </div>

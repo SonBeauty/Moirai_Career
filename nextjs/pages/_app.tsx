@@ -8,6 +8,12 @@ interface MyAppProps {
     Component: React.ComponentType<any>;
     pageProps: any;
   }
+
+  declare global {
+    interface Window {
+      WOW: any;
+    }
+  }
   
   const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
     const [loading, setLoading] = useState(false);
@@ -21,7 +27,7 @@ interface MyAppProps {
       if (typeof window !== "undefined") {
         window.WOW = require("wowjs");
       }
-      new WOW.WOW().init();
+      new window.WOW.WOW().init();
     }, []);
   
     return (

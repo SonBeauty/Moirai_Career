@@ -32,9 +32,9 @@ function Index5(): JSX.Element {
                         </div>
                         <div className="col-lg-4 mt-50 d-none d-lg-block">
                         <div className="banner-imgs">
-                            <div className="block-3 shape-3"><Image width={230} height={174} src="/assets/imgs/page/homepage5/card.png" alt="Agon" /></div>
+                            <div className="block-3 shape-3"><Image width={230} height={174} src="/assets/imgs/page/homepage5/card.png" alt="Moirai" /></div>
                             <div className="img-responsive shape-1">
-                                <Image className="rounded-4" width={416} height={416} alt="Agon" src="/assets/imgs/page/homepage5/banner.png" />
+                                <Image className="rounded-4" width={416} height={416} alt="Moirai" src="/assets/imgs/page/homepage5/banner.png" />
                             </div>
                         </div>
                         </div>
@@ -97,7 +97,7 @@ function Index5(): JSX.Element {
                         The Fashion Product List is a comprehensive collection of<br className="d-lg-block d-none" />
                         trendy and stylish items that cater to diverse fashion<br className="d-lg-block d-none" />
                         preferences. It offers a wide range of fashion products,<br className="d-lg-block d-none" />
-                        ensuring there's something for everyone.
+                        ensuring there&apos;s something for everyone.
                     </p>
                 </div>
                 <div className="container mt-70">
@@ -263,9 +263,9 @@ function Index5(): JSX.Element {
                     <div className="mt-30"><span className="cb-layout mr-30">Order direct from the app</span><span className="cb-layout">Save and searches</span></div>
                     <div className="banner-b-hp5-contain">
                         <div className="banner-b-hp5">
-                            <div className="banner-b-hp5-chart"><Image width={260} height={97} src="/assets/imgs/page/homepage5/spent-chart.png"/></div>
-                            <div className="banner-b-hp5-card"><Image width={220} height={254} src="/assets/imgs/page/homepage5/card-2.png"/></div>
-                            <div className="banner-b-hp5-img"><Image width={434} height={343} src="/assets/imgs/page/homepage5/img.png"/></div>
+                            <div className="banner-b-hp5-chart"><Image width={260} height={97} src="/assets/imgs/page/homepage5/spent-chart.png" alt="Moirai"/></div>
+                            <div className="banner-b-hp5-card"><Image width={220} height={254} src="/assets/imgs/page/homepage5/card-2.png" alt="Moirai"/></div>
+                            <div className="banner-b-hp5-img"><Image width={434} height={343} src="/assets/imgs/page/homepage5/img.png" alt="Moirai"/></div>
                         </div>
                     </div>
                     </div>
@@ -276,22 +276,22 @@ function Index5(): JSX.Element {
                     <h2 className="text-heading-3 text-center color-gray-900 mb-60">Trusted by the world&rsquo;s fashion</h2>
                     <div className="row justify-content-md-center">
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                             </div>
                         </div>
                 </div>

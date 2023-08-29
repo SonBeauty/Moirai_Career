@@ -58,13 +58,13 @@ function Index2(): JSX.Element {
                                     <div className="col-lg-5 d-none d-lg-block">
                                         <div className="banner-imgs">
                                             <div className="block-1 shape-2">
-                                                <Image width={220} height={261} src="/assets/imgs/page/homepage2/balance.png" alt="Agon" />
+                                                <Image width={220} height={261} src="/assets/imgs/page/homepage2/balance.png" alt="Moirai" />
                                             </div>
                                             <div className="block-2 shape-3">
-                                                <Image width={155} height={170} src="/assets/imgs/page/homepage2/payment.png" alt="Agon" />
+                                                <Image width={155} height={170} src="/assets/imgs/page/homepage2/payment.png" alt="Moirai" />
                                             </div>
                                             <div className="img-responsive shape-1">
-                                                <Image width={516} height={645}  alt="Agon" src="/assets/imgs/page/homepage2/banner.png" />
+                                                <Image width={516} height={645}  alt="Moirai" src="/assets/imgs/page/homepage2/banner.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -79,22 +79,22 @@ function Index2(): JSX.Element {
                             </h2>
                             <div className="row justify-content-md-center">
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +104,9 @@ function Index2(): JSX.Element {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-12 block-img-we-do">
                                     <div className="inner-image">
-                                        <Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-2.png" alt="Agon" />
+                                        <Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-2.png" alt="Moirai" />
                                         <div className="block-chart rounded-4 overflow-hidden">
-                                            <Image width={270} height={204} src="/assets/imgs/page/homepage2/chart.png" alt="Agon" />
+                                            <Image width={270} height={204} src="/assets/imgs/page/homepage2/chart.png" alt="Moirai" />
                                         </div>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@ function Index2(): JSX.Element {
                                     </p>
                                     <div className="list-icons mt-50">
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-company.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-company.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 About the Company
                                             </h4>
@@ -129,16 +129,16 @@ function Index2(): JSX.Element {
                                             </p>
                                         </div>
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-history.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-history.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 History of Information
                                             </h4>
                                             <p className="text-body-excerpt color-gray-600 mt-15">
-                                                Our company has a rich and inspiring history. It all started [insert specific information about the company's origin, such as the year and circumstances of establishment].
+                                                Our company has a rich and inspiring history. It all started [insert specific information about the company&apos;s origin, such as the year and circumstances of establishment].
                                             </p>
                                         </div>
                                         <div className="item-icon none-bd">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-mission.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-mission.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 Company Mission
                                             </h4>
@@ -180,7 +180,7 @@ function Index2(): JSX.Element {
                                             our ready demos.
                                         </p>
                                         <div className="box-image-inner bg-color-1">
-                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-1.png" alt="Agon" />
+                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-1.png" alt="Moirai" />
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@ function Index2(): JSX.Element {
                                             our ready demos.
                                         </p>
                                         <div className="box-image-inner bg-color-2">
-                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-2.png" alt="Agon" />
+                                            <Image width={500} height={391} src="/assets/imgs/page/homepage2/temp-web-2.png" alt="Moirai" />
                                         </div>
                                     </div>
                                 </div>
@@ -223,7 +223,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-quality.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-quality.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 1. Unparalleled Quality
                                             </h4>
@@ -236,7 +236,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-trendsetting.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-trendsetting.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 2. Trendsetting Style
                                             </h4>
@@ -249,7 +249,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-4 col-md-12 col-sm-12">
                                     <div className="list-icons mt-50">
                                         <div className="item-icon">
-                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-community.svg" alt="Agon" /></span>
+                                            <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage2/icon-community.svg" alt="Moirai" /></span>
                                             <h4 className="text-heading-4">
                                                 3. Community Engagement
                                             </h4>
@@ -311,9 +311,9 @@ function Index2(): JSX.Element {
                                 </div>
                                 <div className="col-lg-6 col-sm-12 block-we-do">
                                     <div className="inner-image">
-                                        <Image width={608} height={702} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller.png" alt="Agon" />
+                                        <Image width={608} height={702} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller.png" alt="Moirai" />
                                         <div className="block-image-bottom">
-                                            <Image width={313} height={330} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller-2.png" alt="Agon" />
+                                            <Image width={313} height={330} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-best-seller-2.png" alt="Moirai" />
                                         </div>
                                     </div>
                                 </div>
@@ -347,7 +347,7 @@ function Index2(): JSX.Element {
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Moirai" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
                                                         Wade Warren
@@ -364,11 +364,11 @@ function Index2(): JSX.Element {
                                                     Highly Recommend
                                                 </h5>
                                                 <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    You have a great sense of style. The way you've put together that outfit is so fashionable and trendy.
+                                                    You have a great sense of style. The way you&apos;ve put together that outfit is so fashionable and trendy.
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Moirai" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
                                                         Brooklyn Simmons
@@ -389,7 +389,7 @@ function Index2(): JSX.Element {
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Moirai" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
                                                         John Wilson
@@ -406,11 +406,11 @@ function Index2(): JSX.Element {
                                                     I can’t believe in
                                                 </h5>
                                                 <p className="text-body-text color-gray-600 mt-20 text-comment">
-                                                    You always have such impeccable taste in clothes. I'm constantly impressed by how effortlessly stylish you look
+                                                    You always have such impeccable taste in clothes. I&apos;m constantly impressed by how effortlessly stylish you look
                                                 </p>
                                                 <div className="box-img-user">
                                                     <div className="img-user">
-                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Agon" />
+                                                        <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Moirai" />
                                                     </div>
                                                     <h4 className="text-body-lead color-gray-900 mb-5">
                                                         Albert Flores
@@ -429,7 +429,7 @@ function Index2(): JSX.Element {
                     <section className="section-box mt-70">
                         <div className="container mt-50">
                             <h3 className="text-heading-1 text-center mb-10">
-                                Choose The Best Plan<br className="d-lg-block d-none" />That’s For You
+                                Choose The Best Plan<br className="d-lg-block d-none" />That&apos;s For You
                             </h3>
                         </div>
                         <PriceTable/>
@@ -461,9 +461,9 @@ function Index2(): JSX.Element {
                                             </div>
                                             <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                                                 <div className="block-chart shape-1">
-                                                    <Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" />
+                                                    <Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Moirai" />
                                                 </div>
-                                                <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
+                                                <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" /></div>
                                                 
                                             </div>
                                         </div>

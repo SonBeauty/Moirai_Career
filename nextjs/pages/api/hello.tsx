@@ -1,13 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import React from "react";
+import { NextApiResponse, NextApiRequest } from 'next';
 
-interface handlerProps{
-  req: any;
-  res: any;
-}
-
-const handler: React.FC<handlerProps> = ({req, res}) => {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json({ name: 'John Doe' })
 }
-
-export default handler;

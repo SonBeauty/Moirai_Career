@@ -5,7 +5,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Intro2 from "../components/slider/Intro2";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -29,10 +29,10 @@ function Index6(): JSX.Element {
                                 </div>
                                 <div className="col-lg-6 absolute right-0 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-1"><Image width={141} height={57} src="/assets/imgs/page/homepage6/line-chart.svg" alt="Agon" /></div>
-                                        <div className="block-2 shape-3"><Image width={180} height={203} src="/assets/imgs/page/homepage6/card.png" alt="Agon" /></div>
+                                        <div className="block-1 shape-1"><Image width={141} height={57} src="/assets/imgs/page/homepage6/line-chart.svg" alt="Moirai" /></div>
+                                        <div className="block-2 shape-3"><Image width={180} height={203} src="/assets/imgs/page/homepage6/card.png" alt="Moirai" /></div>
                                         <div className="img-banner img-responsive shape-2">
-                                            <Image width={640} height={939} alt="Agon" src="/assets/imgs/page/homepage6/banner.png" />
+                                            <Image width={640} height={939} alt="Moirai" src="/assets/imgs/page/homepage6/banner.png" />
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ function Index6(): JSX.Element {
                                     <div className="list-icons mt-50">
                                         <div className="item-icon none-bd"><span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage6/icon-history.svg" alt="image"/></span>
                                             <h4 className="text-heading-5">2. History of Information</h4>
-                                            <p className="text-body-text color-gray-600 mt-15">Our company has a rich and inspiring history. It all started insert specific information about the company's origin.</p>
+                                            <p className="text-body-text color-gray-600 mt-15">Our company has a rich and inspiring history. It all started insert specific information about the company&apos;s origin.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ function Index6(): JSX.Element {
                 <div className="section-box">
                     <div className="container mt-120">
                         <div className="row">
-                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><Image width={526} height={429} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage6/img-1.png" alt="Agon" /></div>
+                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><Image width={526} height={429} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage6/img-1.png" alt="Moirai" /></div>
                             <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-6 color-green-900">For You</span>
                                 <h3 className="text-heading-1 mt-20">Best Seller</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-80">Welcome to our Best Sellers collection, where you can discover our most sought-after fashion pieces that are loved by our customers.</p>
@@ -156,22 +156,22 @@ function Index6(): JSX.Element {
                         <div className="row">
                             <div className="row justify-content-md-center">
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
                                 </div>
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                                    <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">Lastest trend</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Unveiling the Latest Fashion Trends: Elevate Your Style Game</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-9">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-1.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-1.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice & Look Stylish</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Mastering the Art of Looking Cool: Your Style Guide</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-6">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-2.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-2.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice Every Day</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Dressing Nice Every Day: A Guide to Effortless Style</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-4">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-3.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-3.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">Lastest trend</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Unveiling the Hottest Fashion Trends of the Season</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-2">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-4.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-4.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -265,7 +265,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice & Look Stylish</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Dressing Nice: A Guide to Effortless Style</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-8">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-5.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-5.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@ function Index6(): JSX.Element {
                                 <div className="card-grid-style-4"><span className="tag-dot mb-2">How to Dress Nice Every Day</span>
                                     <Link href="#"><a className="text-heading-5 color-gray-900">Unleashing Your Style: A Journey into the World of Fashion</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-1">
-                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-6.png" alt="Agon" /></a></Link>
+                                        <Link href="#"><a><Image width={398} height={255} src="/assets/imgs/page/homepage6/img-news-6.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -282,7 +282,10 @@ function Index6(): JSX.Element {
                 </div>
                 <ModalVideo
                     channel="youtube"
-                    autoplay
+                    youtube={{
+                        autoplay: 1,
+                        mute: 1
+                    }}
                     isOpen={isOpen}
                     videoId="A450hyqGkmk"
                     onClose={() => setOpen(false)}

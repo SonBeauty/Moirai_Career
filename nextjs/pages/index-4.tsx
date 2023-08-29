@@ -6,7 +6,7 @@ import "react-modal-video/css/modal-video.css";
 import PriceTable3 from "../components/elements/PriceTable3";
 import Layout from "../components/layout/Layout";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -49,7 +49,7 @@ function Index4(): JSX.Element {
                                     <div className="banner-imgs">
                                         <a className="popup-youtube btn-play-video-4" onClick={() => setOpen(true)}></a>
                                         <div className="img-responsive shape-2">
-                                            <Image width={526} height={584} alt="Agon" src="/assets/imgs/page/homepage4/banner.png" />
+                                            <Image width={526} height={584} alt="Moirai" src="/assets/imgs/page/homepage4/banner.png" />
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ function Index4(): JSX.Element {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-quality.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-quality.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">Unparalleled Quality</h4>
                                         <p className="text-body-text color-gray-600 mt-15">We meticulously curate our collections to ensure that every garment we offer meets the highest standards of quality.</p>
                                     </div>
@@ -81,7 +81,7 @@ function Index4(): JSX.Element {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-trendsetting.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-trendsetting.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">Trendsetting Style</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles.</p>
                                     </div>
@@ -90,7 +90,7 @@ function Index4(): JSX.Element {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-community.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage4/icon-community.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">Community Engagement</h4>
                                         <p className="text-body-text color-gray-600 mt-15">We actively engage with our community through various initiatives.</p>
                                     </div>
@@ -103,7 +103,7 @@ function Index4(): JSX.Element {
                     <div className="container mt-90">
                         <div className="row relative">
                             <div className="col-lg-9 col-sm-12 block-img-we-do">
-                                <div className="inner-image"><Image width={948} height={655} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage4/img.png" alt="Agon" /></div>
+                                <div className="inner-image"><Image width={948} height={655} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage4/img.png" alt="Moirai" /></div>
                             </div>
                             <div className="col-lg-5 col-sm-12 block-content-we-do shape-2">
                                 <p className="color-gray-900 font-2xl text-uppercase"><span className="text-w-600">New</span> collections</p>
@@ -133,7 +133,7 @@ function Index4(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">&quot;The best purchase I&apos;ve made in recent years. I didn&apos;t think I could pull off that color so well!&quot;</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
                                                 <p className="text-body-text-md">Student</p>
                                             </div>
@@ -143,7 +143,7 @@ function Index4(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">&quot;The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest.&quot;</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Brooklyn Simmons</h4>
                                                 <p className="text-body-text-md">Designer</p>
                                             </div>
@@ -153,7 +153,7 @@ function Index4(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">&quot;The service couldn&apos;t be better. I really couldn&apos;t have expected more. From item suggestions to final delivery.&quot;</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">John Wilson</h4>
                                                 <p className="text-body-text-md">Content Creator</p>
                                             </div>
@@ -163,7 +163,7 @@ function Index4(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">&quot;The sense of style is elegant and classy. The way outfits are put together is fashionable and trendy.&quot;</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Albert Flores</h4>
                                                 <p className="text-body-text-md">Software Engineer</p>
                                             </div>
@@ -195,14 +195,14 @@ function Index4(): JSX.Element {
                                 <div className="bg-grey box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".1s">
                                     <h4 className="text-heading-4 color-gray-900 mb-15">Traditional Items Picking</h4>
                                     <p className="text-body-text-md color-gray-600">Select what you believe suits you best through manual choice.</p>
-                                    <div className="box-image-inner bg-color-1"><Image width={498} height={389} src="/assets/imgs/page/homepage4/temp-1.png" alt="Agon" /></div>
+                                    <div className="box-image-inner bg-color-1"><Image width={498} height={389} src="/assets/imgs/page/homepage4/temp-1.png" alt="Moirai" /></div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-sm-12">
                                 <div className="bg-2 box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                     <h4 className="text-heading-4 color-gray-900 mb-15">Curating Items by AI</h4>
-                                    <p className="text-body-text-md color-gray-600">Using AI to push beyond your imagination, curate items what you won't think you can pull off.</p>
-                                    <div className="box-image-inner bg-color-2"><Image width={498} height={389} src="/assets/imgs/page/homepage4/temp-2.png" alt="Agon" /></div>
+                                    <p className="text-body-text-md color-gray-600">Using AI to push beyond your imagination, curate items what you won&apos;t think you can pull off.</p>
+                                    <div className="box-image-inner bg-color-2"><Image width={498} height={389} src="/assets/imgs/page/homepage4/temp-2.png" alt="Moirai" /></div>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ function Index4(): JSX.Element {
                                     </a></Link>
 
                                     <div className="grid-4-img mt-2 color-bg-15">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-1.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -246,7 +246,7 @@ function Index4(): JSX.Element {
                                     </a></Link>
 
                                     <div className="grid-4-img mt-2 color-bg-2">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-2.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@ function Index4(): JSX.Element {
                                     </a></Link>
 
                                     <div className="grid-4-img mt-2 color-bg-15">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-3.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -282,8 +282,8 @@ function Index4(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart-3.png" alt="Agon" /></div>
-                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
+                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart-3.png" alt="Moirai" /></div>
+                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -293,7 +293,10 @@ function Index4(): JSX.Element {
                 </section>
                 <ModalVideo
                     channel="youtube"
-                    autoplay
+                    youtube={{
+                        autoplay: 1,
+                        mute: 1
+                    }}
                     isOpen={isOpen}
                     videoId="A450hyqGkmk"
                     onClose={() => setOpen(false)}

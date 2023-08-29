@@ -5,7 +5,7 @@ import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
 import Layout from "../components/layout/Layout";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -287,7 +287,10 @@ function About3(): JSX.Element {
                 </section>
                 <ModalVideo
                     channel="youtube"
-                    autoplay
+                    youtube={{
+                        autoplay: 1,
+                        mute: 1
+                    }}
                     isOpen={isOpen}
                     videoId="A450hyqGkmk"
                     onClose={() => setOpen(false)}

@@ -6,7 +6,7 @@ import 'react-modal-video/css/modal-video.css';
 import Layout from "../components/layout/Layout";
 import Accordion2 from "../components/elements/Accordion2";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -38,7 +38,7 @@ function Index3(): JSX.Element {
                             <div className="col-lg-10">
                                 <div className="box-image">
                                     <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
-                                    <Image width={1076} height={520} className="img-responsive bdrd-16" src="/assets/imgs/page/homepage3/img-banner-video.png" alt="Agon" />
+                                    <Image width={1076} height={520} className="img-responsive bdrd-16" src="/assets/imgs/page/homepage3/img-banner-video.png" alt="Moirai" />
                                 </div>
                             </div>
                             <div className="col-lg-1" />
@@ -64,7 +64,7 @@ function Index3(): JSX.Element {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
                                     <div className="item-icon-hp-3">
-                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-quality.svg" alt="Agon" /></span>
+                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-quality.svg" alt="Moirai" /></span>
                                         <h4 className="text-heading-4">
                                             1. Unparalleled Quality
                                         </h4>
@@ -77,7 +77,7 @@ function Index3(): JSX.Element {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
                                     <div className="item-icon-hp-3">
-                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-trendsetting.svg" alt="Agon" /></span>
+                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-trendsetting.svg" alt="Moirai" /></span>
                                         <h4 className="text-heading-4">
                                             2. Trendsetting Style
                                         </h4>
@@ -90,7 +90,7 @@ function Index3(): JSX.Element {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
                                     <div className="item-icon-hp-3">
-                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-community.svg" alt="Agon" /></span>
+                                        <span className="icon-left"><Image width={64} height={64} src="/assets/imgs/page/homepage3/icon-community.svg" alt="Moirai" /></span>
                                         <h4 className="text-heading-4">
                                             3. Community Engagement
                                         </h4>
@@ -106,7 +106,7 @@ function Index3(): JSX.Element {
                 <section className="section-box">
                     <div className="container mt-120">
                         <div className="row">
-                            <div className="col-lg-6 col-sm-12 block-img-we-do"><Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage3/img-product-2.png" alt="Agon" /></div>
+                            <div className="col-lg-6 col-sm-12 block-img-we-do"><Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage3/img-product-2.png" alt="Moirai" /></div>
                             <div className="col-lg-6 col-sm-12 block-we-do">
                                 <span className="tag-1 bg-red color-white">Fashion as unique as you are</span>
                                 <h3 className="text-heading-1 text-center color-red mt-30">
@@ -173,7 +173,7 @@ function Index3(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">Wow, those jeans look amazing on you! The fit is perfect and they really accentuate your figure.</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
                                                 <p className="text-body-text-md">Designer</p>
                                             </div>
@@ -183,7 +183,7 @@ function Index3(): JSX.Element {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">I love the color of that shirt on you. It brings out your eyes and complements your skin tone beautifully.</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Jacob Jones</h4>
                                                 <p className="text-body-text-md">Cheft</p>
                                             </div>
@@ -191,9 +191,9 @@ function Index3(): JSX.Element {
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">You have a great sense of style. The way you've put together that outfit is so fashionable and trendy.</p>
+                                            <p className="text-body-text color-gray-600 text-comment">You have a great sense of style. The way you&apos;ve put together that outfit is so fashionable and trendy.</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
                                                 <p className="text-body-text-md">Teacher</p>
                                             </div>
@@ -201,9 +201,9 @@ function Index3(): JSX.Element {
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">You always have such impeccable taste in clothes. I'm constantly impressed by how effortlessly stylish you look.</p>
+                                            <p className="text-body-text color-gray-600 text-comment">You always have such impeccable taste in clothes. I&apos;m constantly impressed by how effortlessly stylish you look.</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Agon" /></div>
+                                                <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Moirai" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Robert Fox</h4>
                                                 <p className="text-body-text-md">Creator</p>
                                             </div>
@@ -263,7 +263,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900">Unveiling the Latest Fashion Trends: Elevate Your Style Game
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-1.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-1.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900">Mastering the Art of Looking Cool: Your Style Guide
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-2.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-2.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900"> Dressing Nice Every Day: A Guide to Effortless Style
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-3.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-3.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -293,7 +293,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900">Unveiling the Hottest Fashion Trends of the Season
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-4.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-4.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900">Dressing Nice: A Guide to Effortless Style
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-5.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-5.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -313,7 +313,7 @@ function Index3(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5 color-gray-900">Unleashing Your Style: A Journey into the World of Fashion
                                     </a></Link>
                                     <div className="grid-4-img mt-2 color-bg-12">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-6.png" alt="Agon" />
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage3/img-news-6.png" alt="Moirai" />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -375,8 +375,8 @@ function Index3(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart-2.png" alt="Agon" /></div>
-                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
+                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart-2.png" alt="Moirai" /></div>
+                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" /></div>
                                         </div>
                                     </div>
                                 </div>

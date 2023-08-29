@@ -1,4 +1,5 @@
 import Layout from "../components/layout/Layout";
+import Image from "next/image";
 
 function Contact(): JSX.Element {
     return (
@@ -63,7 +64,7 @@ function Contact(): JSX.Element {
                         <div className="row">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
+                                    <div className="item-icon"><span className="icon-left"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Ofice</h4>
                                         <p className="text-body-text color-gray-1100 mt-15">205 North Michigan Avenue, Suite 810<br />Chicago, 60601, USA<br />Phone: (123) 456-7890<br />Email: contact@Evara.com</p>
                                     </div>
@@ -71,7 +72,7 @@ function Contact(): JSX.Element {
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
+                                    <div className="item-icon"><span className="icon-left"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Studio</h4>
                                         <p className="text-body-text color-gray-1100 mt-15">205 North Michigan Avenue, Suite 810<br />Chicago, 60601, USA<br />Phone: (123) 456-7890<br />Email: contact@Evara.com</p>
                                     </div>
@@ -79,7 +80,7 @@ function Contact(): JSX.Element {
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
+                                    <div className="item-icon"><span className="icon-left"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Factory</h4>
                                         <p className="text-body-text color-gray-1100 mt-15">205 North Michigan Avenue, Suite 810<br />Chicago, 60601, USA<br />Phone: (123) 456-7890<br />Email: contact@Evara.com</p>
                                     </div>

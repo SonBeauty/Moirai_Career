@@ -22,8 +22,8 @@ const SingleVendor: React.FC = () => {
     const { id } = Router.query;
 
     useEffect(() => {
-        setSingleStore(data.find((data) => data?.id == id));
-    }, [data, id]);
+        setSingleStore(data.find((item) => item?.id.toString() == id));
+    }, [id]);
     const [activeIndex, setActiveIndex] = useState(1);
 
     const handleOnClick = (index: number) => {
@@ -72,18 +72,18 @@ const SingleVendor: React.FC = () => {
                                                 <div className="box-category-product"><span className="tag-category">{singleStore?.brand}</span></div>
                                                 <div className="box-rate-product">
                                                     <div className="box-rating">
-                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="agon" /></span>
-                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="agon" /></span>
-                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="agon" /></span>
-                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="agon" /></span>
-                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="agon" /></span>
+                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" /></span>
+                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" /></span>
+                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" /></span>
+                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" /></span>
+                                                        <span><Image width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="Moirai" /></span>
                                                     </div>
                                                     <span className="text-semibold"><span>(</span><span>{singleStore?.rating}</span><span>&nbsp;rates )</span></span>
                                                 </div>
                                             </div>
                                             <h1 className="text-heading-4 mt-30">{singleStore?.title}</h1>
                                             <div className="box-price"><span className="price">${singleStore?.newPrice}</span><span className="price-old">${singleStore?.oldPrice}</span><span className="text-stock">(In stock)</span></div>
-                                            <p className="text-body-text color-gray-500">The WH-L600 delivers cinematic surround sound to immerse you in whatever you're watching or listening to. Sound modes enhance movies, dialogue, games, and sport, while a 98.43-ft wireless listening range gives you the freedom to move around.</p>
+                                            <p className="text-body-text color-gray-500">The WH-L600 delivers cinematic surround sound to immerse you in whatever you&apos;re watching or listening to. Sound modes enhance movies, dialogue, games, and sport, while a 98.43-ft wireless listening range gives you the freedom to move around.</p>
                                             <div className="box-countdown mt-40">
                                                 <div className="box-processbar">
                                                     <div className="text-hurry">Hurry up!<br />Sales ends soon!</div>
@@ -99,8 +99,8 @@ const SingleVendor: React.FC = () => {
                                                 <div className="detail-qty border radius">
                                                     <Link href="#"><a className="qty-down"><i className="fi-rs-angle-small-down" /></a></Link><input className="qty-val" name="quantity" defaultValue={1} min={1} />
                                                     <Link href="#"><a className="qty-up"><i className="fi-rs-angle-small-up" /></a></Link></div>
-                                                <div className="product-extra-link2"><button className="button button-add-to-cart" type="submit"><Image width={17} height={16} src="/assets/imgs/page/single-product/cart.svg" /> Add to cart</button>
-                                                    <Link href="#"><a className="action-btn hover-up" aria-label="Add To Wishlist"><Image width={17} height={17} src="/assets/imgs/page/single-product/heart.svg" /></a></Link>
+                                                <div className="product-extra-link2"><button className="button button-add-to-cart" type="submit"><Image width={17} height={16} src="/assets/imgs/page/single-product/cart.svg" alt="Moirai"/> Add to cart</button>
+                                                    <Link href="#"><a className="action-btn hover-up" aria-label="Add To Wishlist"><Image width={17} height={17} src="/assets/imgs/page/single-product/heart.svg" alt="Moirai"/></a></Link>
                                                     <Link href="#"><a className="action-btn hover-up" aria-label="Compare" ></a></Link></div>
                                             </div>
                                             <div className="box-categories-link">
@@ -373,7 +373,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp1.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp1.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Bass ultra x-203. Head phone</h3><span className="price-regular mr-15">$29.8</span><span className="price-regular price-line">$32.2</span>
                                         </div>
@@ -382,7 +382,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp2.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp2.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Boxie by Dro C 3450. Active Noise</h3><span className="price-regular mr-15">$30.2</span><span className="price-regular price-line">$42.5</span>
                                         </div>
@@ -391,7 +391,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp3.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp3.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Sony DSC H300 - 20.1 Megapixel</h3><span className="price-regular mr-15">$59.8</span><span className="price-regular price-line">$62.3</span>
                                         </div>
@@ -400,7 +400,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp4.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp4.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Bass ultra x-203. Head phone</h3><span className="price-regular mr-15">$42.6</span><span className="price-regular price-line">$52.3</span>
                                         </div>
@@ -409,7 +409,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp5.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp5.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Boxie by Dro C 3450. Active Noise</h3><span className="price-regular mr-15">$69.5</span><span className="price-regular price-line">$71.5</span>
                                         </div>
@@ -418,7 +418,7 @@ const SingleVendor: React.FC = () => {
                             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                 <div className="product-item-1 hover-up">
                                     <Link href="#"><a>
-                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp6.png" alt="agon" /></div>
+                                        <div className="product-image"><Image width={121} height={150} src="/assets/imgs/page/homepage5/sp6.png" alt="Moirai" /></div>
                                         <div className="product-info">
                                             <h3 className="title-product">Sony DSC H300 - 20.1 Megapixel</h3><span className="price-regular mr-15">$52.9</span><span className="price-regular price-line">$55.6</span>
                                         </div>
@@ -443,11 +443,11 @@ const SingleVendor: React.FC = () => {
                             <h3 className="text-heading-1 color-white">You can order on<br className="d-lg-block d-none" />App and Play store</h3>
                             <p className="text-desc-white">Bring the world of shopping to your phone</p>
                             <div className="mt-60">
-                                <Link href="#"><a className="mr-20"><Image width={150} height={45} src="/assets/imgs/page/homepage5/apple-button.svg" alt="agon" /></a></Link>
-                                <Link href="#"><a><Image width={150} height={45} src="/assets/imgs/page/homepage5/google-play.svg" alt="agon" /></a></Link></div>
+                                <Link href="#"><a className="mr-20"><Image width={150} height={45} src="/assets/imgs/page/homepage5/apple-button.svg" alt="Moirai" /></a></Link>
+                                <Link href="#"><a><Image width={150} height={45} src="/assets/imgs/page/homepage5/google-play.svg" alt="Moirai" /></a></Link></div>
                             <div className="mt-10"><span className="cb-layout mr-5">Order direct from the app</span><span className="cb-layout">Save and searches</span></div>
-                            <div className="block-1 d-none d-lg-block"><Image width={210} height={241} src="/assets/imgs/page/shop1/safety.png" alt="agon" /></div>
-                            <div className="block-2 d-none d-lg-block"><Image width={240} height={90} src="/assets/imgs/page/shop1/chart.png" alt="agon" /></div>
+                            <div className="block-1 d-none d-lg-block"><Image width={210} height={241} src="/assets/imgs/page/shop1/safety.png" alt="Moirai" /></div>
+                            <div className="block-2 d-none d-lg-block"><Image width={240} height={90} src="/assets/imgs/page/shop1/chart.png" alt="Moirai" /></div>
                         </div>
                     </div>
                 </section>

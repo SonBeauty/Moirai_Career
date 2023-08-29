@@ -82,7 +82,7 @@ return (
                         <div className="card-grid-style-2 card-square hover-up mb-20">
                         <p className="text-body-text color-gray-600 text-comment">&quot;The best purchase I&apos;ve made in recent years. I didn&apos;t think I could pull off that colour so well. &quot;</p>
                         <div className="box-img-user">
-                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-1.png" alt="Agon" /></div>
+                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-1.png" alt="Moirai" /></div>
                             <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
                             <p className="text-body-text-md">Student</p>
                         </div>
@@ -92,7 +92,7 @@ return (
                         <div className="card-grid-style-2 card-square hover-up mb-20 bg-light-purple">
                         <p className="text-body-text color-gray-600 text-comment">&quot;The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest&quot;</p>
                         <div className="box-img-user">
-                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-2.png" alt="Agon" /></div>
+                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-2.png" alt="Moirai" /></div>
                             <h4 className="text-body-lead color-gray-900 mb-5">Brooklyn Simmons</h4>
                             <p className="text-body-text-md">Designer</p>
                         </div>
@@ -102,7 +102,7 @@ return (
                         <div className="card-grid-style-2 card-square hover-up mb-20 bg-light-purple">
                         <p className="text-body-text color-gray-600 text-comment">&quot;The service couldn&apos;t be better. I really couldn&apos;t have expected more. From item suggestions to final delivery.&quot;</p>
                         <div className="box-img-user">
-                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-3.png" alt="Agon" /></div>
+                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-3.png" alt="Moirai" /></div>
                             <h4 className="text-body-lead color-gray-900 mb-5">John Wilson</h4>
                             <p className="text-body-text-md">Content Creator</p>
                         </div>
@@ -112,7 +112,7 @@ return (
                         <div className="card-grid-style-2 card-square hover-up mb-20">
                         <p className="text-body-text color-gray-600 text-comment">&quot;The sense of style is elegant and classy. The way the outfits are put together is fashionable and trendy.&quot;</p>
                         <div className="box-img-user">
-                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-4.png" alt="Agon" /></div>
+                            <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage1/user-img-4.png" alt="Moirai" /></div>
                             <h4 className="text-body-lead color-gray-900 mb-5">Albert Flores</h4>
                             <p className="text-body-text-md">Software Engineer</p>
                         </div>
@@ -126,9 +126,9 @@ return (
             <div className="section-box">
             <div className="container mt-120">
                 <div className="row">
-                <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center"><Image width={494} height={605} className="img-small img-responsive" src="/assets/imgs/page/homepage7/img-1.png" alt="Agon" />
-                    <div className="block-card"><Image width={250} height={190} src="/assets/imgs/page/homepage7/chart-2.png" alt="Agon" /></div>
-                    <div className="block-control"><Image width={190} height={218} src="/assets/imgs/page/homepage7/img-safety.png" alt="Agon" /></div>
+                <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center"><Image width={494} height={605} className="img-small img-responsive" src="/assets/imgs/page/homepage7/img-1.png" alt="Moirai" />
+                    <div className="block-card"><Image width={250} height={190} src="/assets/imgs/page/homepage7/chart-2.png" alt="Moirai" /></div>
+                    <div className="block-control"><Image width={190} height={218} src="/assets/imgs/page/homepage7/img-safety.png" alt="Moirai" /></div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                     <h3 className="text-heading-1 mt-30">Shopping Process</h3>
@@ -264,12 +264,12 @@ return (
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                     <div className="card-grid-style-4">
                     <div className="grid-4-img bg-light-green mb-20">
-                        <Link href="#"><a><Image width={396} height={465} src="/assets/imgs/page/homepage7/img-blog-1.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={396} height={465} src="/assets/imgs/page/homepage7/img-blog-1.png" alt="Moirai" /></a></Link>
                     </div>
                     <Link href="#"><a className="text-heading-5 color-gray-900">Unveiling the Latest Fashion Trends: Elevate Your Style Game</a></Link>
                     <p className="text-body-text color-gray-500 mt-10">Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.</p>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={56} height={56} src="/assets/imgs/page/blog/2/user-1.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={56} height={56} src="/assets/imgs/page/blog/2/user-1.png" alt="Moirai" /></div>
                         <h4 className="text-heading-6 color-gray-900">Jenny Wilson</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
@@ -278,12 +278,12 @@ return (
                 <div className="col-lg-4 col-sm-6 pr-30 mb-50">
                     <div className="card-grid-style-4">
                     <div className="grid-4-img bg-light-purple mb-20">
-                        <Link href="#"><a><Image width={396} height={465} src="/assets/imgs/page/homepage7/img-blog-2.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={396} height={465} src="/assets/imgs/page/homepage7/img-blog-2.png" alt="Moirai" /></a></Link>
                     </div>
                     <Link href="#"><a className="text-heading-5 color-gray-900">Mastering the Art of Looking Cool: Your Style Guide</a></Link>
                     <p className="text-body-text color-gray-500 mt-10">There&apos;s nothing quite like the effortless, laid-back vibes of fashion that are both comfortable and stylish. Effortless fashion is all about comfort, and letting go of trends that don&apos;t fit your personal style.</p>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={56} height={56} src="/assets/imgs/page/blog/2/user-2.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={56} height={56} src="/assets/imgs/page/blog/2/user-2.png" alt="Moirai" /></div>
                         <h4 className="text-heading-6 color-gray-900">Jenny Wilson</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
@@ -293,45 +293,45 @@ return (
                     <div className="card-list-style-1">
                     <Link href="#"><a className="text-heading-6">Dressing Nice Every Day: A Guide to Effortless Style</a></Link>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-3.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-3.png" alt="Moirai" /></div>
                         <h4 className="text-body-lead color-gray-500">Jane Cooper</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
                     <div className="style-1-img bg-light-green">
-                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-3.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-3.png" alt="Moirai" /></a></Link>
                     </div>
                     </div>
                     <div className="card-list-style-1">
                         <Link href="#"><a className="text-heading-6">Unveiling the Hottest Fashion Trends of the Season</a></Link>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-4.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-4.png" alt="Moirai" /></div>
                         <h4 className="text-body-lead color-gray-500">Wade Warren</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
                     <div className="style-1-img bg-light-purple">
-                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-4.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-4.png" alt="Moirai" /></a></Link>
                     </div>
                     </div>
                     <div className="card-list-style-1">
                         <Link href="#"><a className="text-heading-6">Dressing Nice: A Guide to Effortless Style</a></Link>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-5.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-5.png" alt="Moirai" /></div>
                         <h4 className="text-body-lead color-gray-500">Jenny Wilson</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
                     <div className="style-1-img bg-light-green">
-                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-5.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-5.png" alt="Moirai" /></a></Link>
                     </div>
                     </div>
                     <div className="card-list-style-1">
                         <Link href="#"><a className="text-heading-6">Unleashing Your Style: A Journey into the World of Fashion</a></Link>
                     <div className="blog-img-user">
-                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-6.png" alt="Agon" /></div>
+                        <div className="img-user img-user-round"><Image width={41} height={41} src="/assets/imgs/page/blog/2/user-6.png" alt="Moirai" /></div>
                         <h4 className="text-body-lead color-gray-500">Robert Fox</h4>
                         <p className="text-body-small color-gray-500">August 25, 2022</p>
                     </div>
                     <div className="style-1-img bg-light-purple">
-                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-6.png" alt="Agon" /></a></Link>
+                        <Link href="#"><a><Image width={110} height={110} src="/assets/imgs/page/homepage7/img-blog-6.png" alt="Moirai" /></a></Link>
                     </div>
                     </div>
                 </div>
@@ -354,8 +354,8 @@ return (
                         </div>
                         </div>
                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                        <div className="block-chart"><Image width={255} height={193} src="/assets/imgs/page/homepage7/chart-2.png" alt="Agon" /></div>
-                        <div className="img-responsive img-newsletter"><Image width={332} height={404}  src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
+                        <div className="block-chart"><Image width={255} height={193} src="/assets/imgs/page/homepage7/chart-2.png" alt="Moirai" /></div>
+                        <div className="img-responsive img-newsletter"><Image width={332} height={404}  src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" /></div>
                         </div>
                     </div>
                     </div>

@@ -7,7 +7,7 @@ import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 
-const ModalVideo = dynamic(import("react-modal-video"), {
+const ModalVideo:any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -51,7 +51,7 @@ function Home(): JSX.Element {
 
                                         </div>
                                         <div className="shape-2">
-                                            <Image width={526} height={596} alt="Agon" src="/assets/imgs/page/homepage1/banner-img.png" />
+                                            <Image width={526} height={596} alt="Moirai" src="/assets/imgs/page/homepage1/banner-img.png" />
                                         </div>
                                     </div>
                                 </div>
@@ -63,22 +63,22 @@ function Home(): JSX.Element {
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/dg.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/givenchy.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/prada.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/ysl.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/versace.svg" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Agon" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><Image width={166} height={166} alt="Moirai" className="w-100" src="/assets/imgs/slider/logo/burberry.svg" /></a></Link>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ function Home(): JSX.Element {
                                         <div className="col-lg-6 col-md-12">
                                             <div className="block-video icon-pattern">
                                                 <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a>
-                                                <Image width={630} height={500} src="/assets/imgs/page/homepage1/img-product-1.png" alt="Agon" />
+                                                <Image width={630} height={500} src="/assets/imgs/page/homepage1/img-product-1.png" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -190,7 +190,7 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-6 col-sm-12">
                                             <div className="block-video icon-pattern">
-                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-2.jpg" alt="Agon" />
+                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-2.jpg" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -225,7 +225,7 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-6 col-sm-12">
                                             <div className="block-video icon-pattern">
-                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-3.jpg" alt="Agon" />
+                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-3.jpg" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +260,7 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-6 col-sm-12">
                                             <div className="block-video icon-pattern">
-                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-4.jpg" alt="Agon" />
+                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-4.jpg" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -295,7 +295,7 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-6 col-sm-12">
                                             <div className="block-video icon-pattern">
-                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-5.jpg" alt="Agon" />
+                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-5.jpg" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -330,7 +330,7 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-6 col-sm-12">
                                             <div className="block-video icon-pattern">
-                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-6.jpg" alt="Agon" />
+                                                <a className="popup-youtube btn-play-video" onClick={() => setOpen(true)}></a><Image width={635} height={500} src="/assets/imgs/page/homepage1/img-1-6.jpg" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
@@ -361,7 +361,7 @@ function Home(): JSX.Element {
                                     <div className="card-about">
                                         <div className="h-full">
                                             <div className="grid-1-img">
-                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/company.svg" alt="Agon" />
+                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/company.svg" alt="Moirai" />
                                             </div>
                                             <h3 className="text-heading-3 mt-20">
                                                 About the Company
@@ -381,7 +381,7 @@ function Home(): JSX.Element {
                                     <div className="card-about">
                                         <div className="h-full">
                                             <div className="grid-1-img">
-                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/history.svg" alt="Agon" />
+                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/history.svg" alt="Moirai" />
                                             </div>
                                             <h3 className="text-heading-3 mt-20">
                                                 History of Formation
@@ -401,7 +401,7 @@ function Home(): JSX.Element {
                                     <div className="card-about">
                                         <div className="h-full">
                                             <div className="grid-1-img">
-                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/social.svg" alt="Agon" />
+                                                <Image width={80} height={80} src="/assets/imgs/page/homepage1/social.svg" alt="Moirai" />
                                             </div>
                                             <h3 className="text-heading-3 mt-20">
                                                 Company Mission
@@ -423,7 +423,7 @@ function Home(): JSX.Element {
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage1/img-product-2.png" alt="Agon" />
+                                <Image width={618} height={716} className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage1/img-product-2.png" alt="Moirai" />
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do">
                                 <span className="tag-1">Fashion as unique as you are.</span>
@@ -534,7 +534,7 @@ function Home(): JSX.Element {
                                     <Link href="/blog-single"><a className="text-heading-5">Unveiling the Latest Fashion Trends: Elevate Your Style Game</a></Link>
                                     <div className="grid-4-img mt-2">
                                         <Link href="/blog-single">
-                                            <a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" /></a>
+                                            <a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-1.png" alt="Moirai" /></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -544,7 +544,7 @@ function Home(): JSX.Element {
                                     <span className="tag-dot mb-2">How to Dress Nice & Look Stylisht</span>
                                     <Link href="/blog-single"><a className="text-heading-5">Mastering the Art of Looking Cool: Your Style Guide</a></Link>
                                     <div className="grid-4-img mt-2 color-bg-4">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" /></a></Link>
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-2.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -553,7 +553,7 @@ function Home(): JSX.Element {
                                     <span className="tag-dot mb-2">How to Dress Nice Every Day</span>
                                     <Link href="/blog-single"><a className="text-heading-5"> Dressing Nice Every Day: A Guide to Effortless Style</a></Link>
                                     <div className="grid-4-img mt-2">
-                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
+                                        <Link href="/blog-single"><a><Image width={398} height={255} src="/assets/imgs/page/homepage1/img-news-3.png" alt="Moirai" /></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -592,10 +592,10 @@ function Home(): JSX.Element {
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                                             <div className="block-chart shape-1">
-                                                <Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" />
+                                                <Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Moirai" />
                                             </div>
                                             <div className="img-responsive img-newsletter">
-                                                <Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" />
+                                                <Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" />
                                             </div>
                                         </div>
                                     </div>
