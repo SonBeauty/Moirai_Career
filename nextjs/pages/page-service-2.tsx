@@ -10,7 +10,9 @@ function Service2(): JSX.Element {
         <>
             <Layout>
                 <section className="section-box fit">
-                    <div className="bg-services"></div>
+                    <div className="bg-services-2">
+                        <div className="bg-services"/>
+                    </div>
                     <div className="banner-hero bg-service-2">
                         <div className="container">
                             <div className="row relative">

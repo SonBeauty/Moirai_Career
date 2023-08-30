@@ -40,7 +40,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <Image width={187} height={50} alt="Agon" src="/assets/imgs/template/logo-white.svg" /> : <Image width={187} height={50} alt="Agon" src="/assets/imgs/template/logo.svg" />}
+                                    {headerStyle ? <Image width={187} height={50} alt="Agon" src={`/assets/imgs/template/${headerStyle.includes("normal-logo") ? "logo" : "logo-white" }.svg`} /> : <Image width={187} height={50} alt="Agon" src="/assets/imgs/template/logo.svg" />}
                                     </a>
                                 </Link>
                             </div>

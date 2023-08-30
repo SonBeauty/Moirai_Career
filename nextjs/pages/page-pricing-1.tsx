@@ -90,39 +90,43 @@ function Pricing1(): JSX.Element {
                                 </div>
                             </div>
                         </div>
+                        <div className="text-center mt-30 mb-100">
+                            <Link href="/#"><a className="btn btn-black icon-arrow-right-white mb-20 mr-20">Start free trial</a></Link>
+                            <Link href="/#"><a className="btn btn-default icon-arrow-right mb-20">View plans comparison</a></Link>
+                        </div>
                     </div>
                 </section>
                 <section className="section-box mt-80">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
-                                <h2 className="text-heading-1 color-gray-900 mb-30">How It Works</h2>
-                                <p className="text-body-excerpt color-gray-600">Ac sapien purus tristique neque nibh vitae faucibus non phasellus vulputate nulla in eget amet, risus</p>
+                                <h2 className="text-heading-1 color-gray-900 mb-30">Customer Lifecycle</h2>
+                                <p className="text-body-excerpt color-gray-600">We understand that the relationship with our customers extends beyond a single transaction, which is why we focus on nurturing and supporting them throughout the entire customer lifecycle.</p>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">1. Acquisition</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <p className="text-body-text color-gray-600 mt-15">Our Acquisition plan focuses on introducing new customers to our fashion offerings.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-active.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">2. Activation</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <p className="text-body-text color-gray-600 mt-15">With our Activation plan, unlock additional features and benefits to enhance your fashion journey.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></div>
+                                        <div className="mb-15"><Image width={80} height={80} src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Moirai" /></div>
                                         <h4 className="text-heading-4">3. Retention</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <p className="text-body-text color-gray-600 mt-15">Our Retention plan rewards loyalty and ensures an ongoing delightful fashion experience.</p>
                                     </div>
                                 </div>
                             </div>
@@ -135,8 +139,12 @@ function Pricing1(): JSX.Element {
                             <div className="row">
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center">
-                                    <h2 className="text-heading-1 color-gray-900 mt-30">Our Happy Customers</h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">Know about our clients, we are a woldwide<br className="d-lg-block d-none" />corporate brand</p>
+                                    <h2 className="text-heading-1 color-gray-900 mt-30">
+                                        Customers Feedback
+                                    </h2>
+                                    <p className="text-body-lead-large color-gray-600 mt-20">
+                                        What are our client talk about us?
+                                    </p>
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
@@ -144,45 +152,85 @@ function Pricing1(): JSX.Element {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
-                                            <h5 className="text-heading-5 color-gray-900">Satisfied client testimonial</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Even factoring differences in body weight between children and adults into account, it would still not reach an intoxicating level in children.</p>
+                                            <h5 className="text-heading-5 color-gray-900">
+                                                So good experience
+                                            </h5>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">
+                                                &quot;The best purchase I&apos;ve made in recent years. I didn&apos;t think I could pull off that color so well!&quot;
+                                            </p>
                                             <div className="box-img-user">
-                                                <div className="img-user"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <div className="img-user">
+                                                    <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-1.png" alt="Moirai" />
+                                                </div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">
+                                                    Wade Warren
+                                                </h4>
+                                                <p className="text-body-text-md">
+                                                    Student
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
-                                            <h5 className="text-heading-5 color-gray-900">98% of residents recommend us</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication.</p>
+                                            <h5 className="text-heading-5 color-gray-900">
+                                                Highly Recommend
+                                            </h5>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">
+                                                &quot;The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest.&quot;
+                                            </p>
                                             <div className="box-img-user">
-                                                <div className="img-user"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
-                                                <p className="text-body-text-md">Krusty Krab</p>
+                                                <div className="img-user">
+                                                    <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-2.png" alt="Moirai" />
+                                                </div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">
+                                                    Brooklyn Simmons
+                                                </h4>
+                                                <p className="text-body-text-md">
+                                                    Designer
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
-                                            <h5 className="text-heading-5 color-gray-900">Our success stories</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">“It has been an absolute pleasure dealing with Scan during the lockdown. Our church began to livestream our services, and Scan had a great selection of hardware....”</p>
+                                            <h5 className="text-heading-5 color-gray-900">
+                                                Wonderful
+                                            </h5>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">
+                                                &quot;The service couldn&apos;t be better. I really couldn&apos;t have expected more. From item suggestions to final delivery.&quot;
+                                            </p>
                                             <div className="box-img-user">
-                                                <div className="img-user"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <div className="img-user">
+                                                    <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-3.png" alt="Moirai" />
+                                                </div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">
+                                                    John Wilson
+                                                </h4>
+                                                <p className="text-body-text-md">
+                                                    Content Creator
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
-                                            <h5 className="text-heading-5 color-gray-900">This is simply unbelievable</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">“I was also lucky enough to read @Coding_Career early and I was thoroughly blown away! It’s the book I wish I had when I started my dev career.”</p>
+                                            <h5 className="text-heading-5 color-gray-900">
+                                                I can&apos;t believe in
+                                            </h5>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">
+                                                &quot;The sense of style is elegant and classy. The way outfits are put together is fashionable and trendy.&quot;
+                                            </p>
                                             <div className="box-img-user">
-                                                <div className="img-user"><Image width={80} height={80} src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
-                                                <p className="text-body-text-md">Soylent Corp</p>
+                                                <div className="img-user">
+                                                    <Image width={80} height={80} src="/assets/imgs/page/homepage2/user-img-4.png" alt="Moirai" />
+                                                </div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">
+                                                    Albert Flores
+                                                </h4>
+                                                <p className="text-body-text-md">
+                                                    Software Engineer
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -195,10 +243,10 @@ function Pricing1(): JSX.Element {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900">Frequently Asked Questions</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Aliquam a augue suscipit, luctus neque purus ipsum<br className="d-lg-block d-none" />neque dolor primis a libero tempus, blandit and<br className="d-lg-block d-none" />cursus varius and magnis sapien</p>
-                            </div>
+                                <div className="col-lg-8 col-sm-10 col-12 text-center"> 
+                                    <h2 className="text-heading-1 color-gray-900">Frequently Asked Questions</h2>
+                                    <p className="text-body-lead-large color-gray-600 mt-20">We understand that you may have questions about various aspects of fashion, from shipping and returns to product care and sizing. To make your shopping experience as seamless as possible, we have categorized our frequently asked questions into different types.</p>
+                                </div>
                             <div className="col-lg-2 col-sm-1 col-12" />
                         </div>
                     </div>
@@ -207,62 +255,46 @@ function Pricing1(): JSX.Element {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-12">
-                                <ul className="list-icons-2">
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Can I see the demo before purchasing?</h3>
-                                        <p className="text-body-text color-gray-500">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae</p>
+                                <ul className="list-icons-2 row d-flex">
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">How do I determine my correct size?</h3>
+                                        <p className="text-body-text color-gray-500">Please refer to our size guide, which provides detailed measurements and instructions on how to measure yourself accurately for the best fit.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Can I use your system on different devices?</h3>
-                                        <p className="text-body-text color-gray-500">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae</p>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">What if I receive a damaged or defective item?</h3>
+                                        <p className="text-body-text color-gray-500">If you receive a damaged or defective item, please contact our customer support immediately. We will gladly assist you in resolving the issue by providing a replacement.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Can I import my sitemap to your system?</h3>
-                                        <p className="text-body-text color-gray-500">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium</p>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">What is your return policy?</h3>
+                                        <p className="text-body-text color-gray-500">Yes, once your order is shipped, you will receive a confirmation email with a tracking number.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Can I cancel my subscription at any time?</h3>
-                                        <p className="text-body-text color-gray-500">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium</p>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">Do you offer international shipping?</h3>
+                                        <p className="text-body-text color-gray-500">Yes, we offer international shipping to select countries. Shipping fees and delivery times may vary based on the destination.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">How can I switch my subscription between essential, and premium plan</h3>
-                                        <p className="text-body-text color-gray-500">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque.</p>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">How long does shipping take?</h3>
+                                        <p className="text-body-text color-gray-500">Shipping times may vary depending on your location and the shipping method chosen.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Is there an additional discount when paid annually?</h3>
-                                        <p className="text-body-text color-gray-500">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien</p>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">Can I modify or cancel my order after it has been placed?</h3>
+                                        <p className="text-body-text color-gray-500">We aim to process orders quickly. If you need to modify or cancel your order, please reach out to our customer support as soon as possible.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">I have an issue with my account</h3>
-                                        <ul className="text-body-text">
-                                            <li>Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula</li>
-                                            <li>An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna</li>
-                                        </ul>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">Can I track my order?</h3>
+                                        <p className="text-body-text color-gray-500">We accept major credit cards, including Visa, Mastercard, and American Express. Additionally, we offer payment options through popular digital wallets like Apple Pay and Google Pay for convenient and secure transactions.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What happens if I don’t renew my license after one year?</h3>
-                                        <ul className="text-body-text">
-                                            <li>Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula</li>
-                                            <li>An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna</li>
-                                        </ul>
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">Are the colors of the products accurate in the photos?</h3>
+                                        <p className="text-body-text color-gray-500">We strive to provide accurate representations of our products. However, please note that colors may appear slightly different due to variations in lighting, monitor settings, and individual perception.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Do you have a free trial?</h3>
-                                        <p className="text-body-text color-gray-500" />
-                                        <ul className="text-body-text">
-                                            <li>Fringilla risus, luctus mauris orci auctor purus</li>
-                                            <li>Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus</li>
-                                        </ul>
-                                        <p />
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">What payment methods do you accept?</h3>
+                                        <p className="text-body-text color-gray-500">We offer a hassle-free return policy. If you are not satisfied with your purchase, you can return the item within 30 days of delivery for a full refund or exchange. Please ensure the item is unused and in its original packaging with all tags attached.</p>
                                     </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What kind of payment methods do you provide?</h3>
-                                        <p className="text-body-text color-gray-500" />
-                                        <ul className="text-body-text">
-                                            <li>Fringilla risus, luctus mauris orci auctor purus</li>
-                                            <li>Quaerat sodales sapien euismoda laoreet augue luctus</li>
-                                        </ul>
-                                        <p />
+                                    <li className="col-lg-6 col-sm-6 col-12">
+                                        <h3 className="text-heading-5 mb-10">How can I contact your customer support?</h3>
+                                        <p className="text-body-text color-gray-500">We are here to assist you with any inquiries, concerns, or assistance you may need.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -285,8 +317,8 @@ function Pricing1(): JSX.Element {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" /></div>
-                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter.png" alt="Agon" /></div>
+                                            <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Moirai" /></div>
+                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Moirai" /></div>
                                         </div>
                                     </div>
                                 </div>

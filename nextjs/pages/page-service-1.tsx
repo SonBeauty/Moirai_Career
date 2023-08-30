@@ -8,7 +8,7 @@ function Service1(): JSX.Element {
         <>
             <Layout>
                 <section className="section-box">
-                    <div className="banner-hero bg-2">
+                    <div className="banner-hero bg-2 bg-services-1">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 box-banner-left">
