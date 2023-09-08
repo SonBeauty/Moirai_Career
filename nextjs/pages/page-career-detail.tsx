@@ -63,14 +63,14 @@ function CareerDetails() {
                                         <li>Process customer orders, returns, and exchanges, ensuring accuracy and efficiency.</li>
                                         <li>Collaborate with other teams, such as sales and logistics, to resolve customer-related issues and ensure a seamless customer experience</li>
                                         <li>Identify and escalate complex or unresolved customer issues to the appropriate department for further assistance</li>
-                                        <li>Document and maintain customer interactions and transactions in the company's CRM system</li>
+                                        <li>Document and maintain customer interactions and transactions in the company&apos;s CRM system</li>
                                         <li>Continuously strive to enhance customer satisfaction by proactively identifying areas for improvement and suggesting solutions</li>
                                         <li>Stay up-to-date with industry trends and customer service best practices to provide the highest level of service</li>
                                     </ul>
                                     <p />
                                     <h2 className="text-heading-4">Requirements</h2>
                                     <ul>
-                                        <li>High school diploma or equivalent; bachelor's degree is a plus.</li>
+                                        <li>High school diploma or equivalent; bachelor&apos;s degree is a plus.</li>
                                         <li>Excellent communication skills, both verbal and written, with the ability to effectively communicate with customers and team members</li>
                                         <li>Strong problem-solving skills and the ability to think quickly on your feet</li>
                                         <li>Ability to remain calm and professional in high-pressure situations</li>

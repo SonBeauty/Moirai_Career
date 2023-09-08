@@ -189,7 +189,7 @@ function Career(): JSX.Element {
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">&quot;Moirai Fashion's marketing department provides a vibrant and dynamic environment. Open communication, growth opportunities, and a recognition of contributions foster creativity and make it a place where ideas thrive.&quot;</p>
+                                            <p className="text-body-text color-gray-600 text-comment">&quot;Moirai Fashion&apos;s marketing department provides a vibrant and dynamic environment. Open communication, growth opportunities, and a recognition of contributions foster creativity and make it a place where ideas thrive.&quot;</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/person-3.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Ethan Reynolds</h4>
@@ -199,7 +199,7 @@ function Career(): JSX.Element {
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">&quot;I'm proud to be part of Moirai Fashion's innovative and fast-paced e-commerce team. The autonomy to implement creative ideas and strategies, along with a collaborative and passionate atmosphere, make it an exciting workplace. &quot;</p>
+                                            <p className="text-body-text color-gray-600 text-comment">&quot;I&apos;m proud to be part of Moirai Fashion&apos;s innovative and fast-paced e-commerce team. The autonomy to implement creative ideas and strategies, along with a collaborative and passionate atmosphere, make it an exciting workplace. &quot;</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><Image width={80} height={80} src="/assets/imgs/page/homepage2/person-4.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Sophia Mitchell</h4>
