@@ -2,8 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-interface HeaderProps{
-    handleOpen: ()=> void;
+interface HeaderProps {
+    handleOpen: () => void;
     headerStyle: string;
 }
 
@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <Image width={187} height={50} alt="Agon" src={`/assets/imgs/template/${headerStyle.includes("normal-logo") ? "logo" : "logo-white" }.svg`} /> : <Image width={187} height={50} alt="Agon" src="/assets/imgs/template/logo.svg" />}
+                                        {headerStyle ? <Image width={187} height={50} alt="Agon" src={`/assets/imgs/template/${headerStyle.includes("normal-logo") ? "logo" : "logo-white"}.svg`} /> : <Image width={187} height={50} alt="Agon" src="/assets/imgs/template/logo.svg" />}
                                     </a>
                                 </Link>
                             </div>

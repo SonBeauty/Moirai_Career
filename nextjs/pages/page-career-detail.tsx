@@ -5,7 +5,7 @@ import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
 import Layout from "../components/layout/Layout";
 
-const ModalVideo:any = dynamic(import("react-modal-video"), {
+const ModalVideo: any = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
@@ -19,7 +19,7 @@ function CareerDetails() {
                         <div className="container text-center">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <h1 className="text-heading-2 color-gray-900 mb-20">Senior Full Stack Engineer, Creator<br className="d-lg-block d-none" />Success Full Time</h1>
+                                    <h1 className="text-heading-2 color-gray-900 mb-20">Customer Service Representative <br />Full Time</h1>
                                     <div className="breadcrumbs">
                                         <ul className="text-body-text">
                                             <li>
@@ -39,48 +39,48 @@ function CareerDetails() {
                             <div className="row">
                                 <div className="col-lg-2" />
                                 <div className="col-lg-8">
-                                    <h2 className="text-heading-4">Job Description</h2>
-                                    <p className="text-body-text">The AliStudio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.</p>
-                                    <p className="text-body-text">The ideal candidate will have strong creative skills and a portfolio of work which demonstrates their passion for illustrative design and typography. This candidate will have experiences in working with numerous different design platforms such as digital and print forms.</p>
+                                    <h2 className="text-heading-4">Job Summary</h2>
+                                    <p className="text-body-text">We are seeking a dedicated and friendly Customer Service Representative to join our team. As a Customer Service Representative, you will be the primary point of contact for our customers, providing exceptional service and resolving their inquiries or concerns. Your goal will be to ensure customer satisfaction and build positive relationships with our clientele.</p>
                                     <p />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-lg-1" />
-                                <div className="col-lg-10">
+                                <div className="col-lg-10 container-video">
                                     <div className="box-image mt-30 mb-30">
-                                        <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
-                                        <Image width={1076} height={520} className="img-responsive bdrd-16" src="/assets/imgs/page/career/img.png" alt="Agon" /></div>
+                                        <a className="popup-youtube btn-play-video btn-play-detail" onClick={() => setOpen(true)}></a>
+                                        <Image width={765} height={484} className="img-responsive bdrd-16" src="/assets/imgs/page/career/img_1.png" alt="Agon" /></div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-lg-2" />
                                 <div className="col-lg-8">
-                                    <h2 className="text-heading-4">Essential Knowledge, Skills, and Experience</h2>
+                                    <h2 className="text-heading-4">Responsibilities</h2>
                                     <ul>
-                                        <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
-                                        <li>5+ years of industry experience in interactive design and / or visual design</li>
-                                        <li>Excellent interpersonal skills </li>
-                                        <li>Aware of trends in mobile, communications, and collaboration</li>
-                                        <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
-                                        <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
-                                        <li>History of impacting shipping products with your work</li>
-                                        <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
-                                        <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                        <li>Act as the main point of contact for customers, handling incoming inquiries, complaints, and requests in a professional and timely manner</li>
+                                        <li>Provide excellent customer service by addressing customer needs and resolving issues effectively</li>
+                                        <li>Maintain a thorough understanding of our products, services, and company policies to provide accurate information to customers</li>
+                                        <li>Process customer orders, returns, and exchanges, ensuring accuracy and efficiency.</li>
+                                        <li>Collaborate with other teams, such as sales and logistics, to resolve customer-related issues and ensure a seamless customer experience</li>
+                                        <li>Identify and escalate complex or unresolved customer issues to the appropriate department for further assistance</li>
+                                        <li>Document and maintain customer interactions and transactions in the company's CRM system</li>
+                                        <li>Continuously strive to enhance customer satisfaction by proactively identifying areas for improvement and suggesting solutions</li>
+                                        <li>Stay up-to-date with industry trends and customer service best practices to provide the highest level of service</li>
                                     </ul>
                                     <p />
-                                    <h2 className="text-heading-4">Essential Knowledge, Skills, and Experience</h2>
+                                    <h2 className="text-heading-4">Requirements</h2>
                                     <ul>
-                                        <li>Designing user experiences for enterprise software / services</li>
-                                        <li>Creating and applying established design principles and interaction patterns</li>
-                                        <li>Aligning or influencing design thinking with teams working in other geographies</li>
+                                        <li>High school diploma or equivalent; bachelor's degree is a plus.</li>
+                                        <li>Excellent communication skills, both verbal and written, with the ability to effectively communicate with customers and team members</li>
+                                        <li>Strong problem-solving skills and the ability to think quickly on your feet</li>
+                                        <li>Ability to remain calm and professional in high-pressure situations</li>
+                                        <li>Proficiency in using customer service software, CRM systems, and Microsoft Office Suite</li>
+                                        <li>Strong organizational and multitasking abilities</li>
+                                        <li>Availability to work flexible schedules, including weekends and holidays, if required</li>
+                                        <li>A customer-focused mindset with a genuine desire to assist and satisfy customers</li>
                                     </ul>
                                     <p />
-                                    <h2 className="text-heading-4">Essential Knowledge, Skills, and Experience</h2>
-                                    <p>Product knowledge: Deeply understand the technology and features of the product area to which you are assigned.</p>
-                                    <p>Research: Provide human and business impact and insights for products.</p>
-                                    <p>Deliverables: Create deliverables for your product area (for example competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through the user experience.</p>
-                                    <p>Communication: Communicate the results of UX activities within your product area to the design team department, cross-functional partners within your product area, and other interested Superformula team members using clear language that simplifies complexity.</p>
+                                    <p> Note: This is a general job description and can be customized to fit the specific requirements and needs of your organization.</p>
                                     <div className="border-bottom mt-50 mb-50" />
                                     <div className="media-block">
                                         <Link href="/page-signup"><a className="btn btn-green-900 color-white text-heading-6 icon-arrow-right-white mr-20" >Apply Now</a></Link>
@@ -100,20 +100,19 @@ function CareerDetails() {
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-10 mx-auto">
-                                <div className="bg-6 box-newsletter position-relative">
+                                <div className="box-newsletter position-relative">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
                                             <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
                                             <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
-                                            <Link href="/page-terms"><a>Term &amp; Conditions</a></Link>
+                                            <Link href="/page-terms"><a className="a-detail">Term &amp; Conditions</a></Link>
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send-blue" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                                             <div className="block-chart shape-1"><Image width={255} height={193} src="/assets/imgs/template/chart.png" alt="Agon" /></div>
-                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter.png" alt="Agon" /></div>
-                                            
+                                            <div className="img-responsive img-newsletter"><Image width={332} height={403} src="/assets/imgs/template/img-newsletter-1.png" alt="Agon" /></div>
                                         </div>
                                     </div>
                                 </div>
